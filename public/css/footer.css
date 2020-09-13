@@ -1,0 +1,113 @@
+footer {
+    padding-top: 90px;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 992px) {
+    footer {
+        padding-top: 40px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+}
+
+footer .footer-logo {
+    padding-bottom: 50px;
+}
+
+footer .footer-logo span {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "OpenSans-Bold";
+}
+
+footer p {
+    font-size: 16px;
+    font-family: "OpenSans-Bold";
+}
+
+footer a {
+    font-family: "OpenSans-Regular";
+    font-size: 16px;
+}
+
+footer a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+footer .social-network span {
+    font-size: 16px;
+    font-family: "OpenSans-Bold";
+}
+
+footer .social-network .single-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@media (max-width: 992px) {
+    footer .social-network .single-icon {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+footer .social-network .single-icon a .icon-bg {
+    text-align: center;
+    padding-top: 10px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+	transition: 0.3s;
+	margin-right: 10px;
+}
+
+
+@media (max-width: 992px) {
+    footer .copyright {
+        padding-top: 20px;
+    }
+}
+
+footer .copyright p {
+    font-size: 13px;
+}
+
+/* >>>>>>>>>>>>>>>> footer new styles >>>>>>>>>>>>>> */
+
+
+@media (max-width: 992px) {
+    .footer_row {
+        padding-bottom:40px;
+    }
+}
+
+.single-link a:hover, .footer_row a:hover{
+    color:#0D171D;
+}
+
+
+.tesvan_info:hover {
+    color:#0D171D;
+    text-decoration:underline;
+}
+
+.tesvan_info {
+    color:#0D171D;
+    text-decoration:underline;
+}
+
+._flag:hover {
+   text-decoration: none;
+}
+
+._flag_row {
+    right: 118px;
+}
+
+.icon-bg:hover {
+    opacity: 0.6;                    
+}

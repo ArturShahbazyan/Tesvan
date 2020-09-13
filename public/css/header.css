@@ -1,0 +1,141 @@
+
+header {
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	padding: 35px 0;
+	-webkit-transition: all ease-out .5s;
+	-moz-transition: all ease-out .5s;
+	-o-transition: all ease-out .5s;
+	transition: all ease-out .5s;
+}
+
+@media (max-width: 992px) {
+	header {
+		padding: 30px 0;
+		background: #FFFFFF;
+	}
+}
+
+header ul {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+header ul li:not(:last-child) {
+	padding-right: 50px;
+}
+
+@media (max-width: 1439px) {
+	header ul li:not(:last-child) {
+		padding-right: 35px;
+	}
+}
+
+@media (max-width: 1199px) {
+	header ul li:not(:last-child) {
+		padding-right: 30px;
+	}
+}
+
+@media (max-width: 1199px) {
+	header ul li:not(:last-child) {
+    padding-right: 20px;
+	}
+}
+
+@media (max-width: 992px) {
+	header .custom_menu>li {
+		padding-right: 0;
+		padding-bottom: 18px;
+	}
+}
+
+header ul li a {
+	font-family: "OpenSans-Regular";
+	font-size: 16px;
+}
+
+@media (max-width: 1199px) {
+	header ul li a {
+		font-size: 15px;
+	}
+}
+
+
+header ul li a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #0D171D;
+}
+
+header ul .menu-btn {
+	padding: 0;
+}
+
+header ul .menu-btn a {
+	border: 2px solid #143E5A;
+	padding: 20px 37px;
+	border-radius: 5px;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	font-weight: bold;
+}
+
+@media (max-width: 1439px) {
+	header ul .menu-btn a {
+    padding: 18px 32px;
+  
+  }
+}
+
+@media (max-width: 1199px) {
+	header ul .menu-btn a {
+    padding: 16px 27px;
+  
+  }
+}
+
+
+header ul .menu-btn a:hover {
+	color: #FFFFFF;
+	background: #143E5A;
+}
+
+header .navbar-toggler {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	outline: none;
+}
+
+.active {
+	-webkit-box-shadow: 0px 2px 15px 0px #c9c9c9;
+	box-shadow: 0px 2px 15px 0px #c9c9c9;
+	background: #FFFFFF;
+	padding: 30px 0;
+}
+
+.current {
+	text-decoration: none;
+	font-weight: bold;
+	color: #585E5D;
+}
+
+@media (max-width: 992px) {
+	.flag {
+    visibility: hidden;
+  
+  }
+}
+
+.services_dropdown_menu,
+.flags_dropdown_menu {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: none;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 12px;
+}
