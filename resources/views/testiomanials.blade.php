@@ -1,3 +1,4 @@
+<section id="testimonials">
 <div class="container">
 <div class="testmonail_container">
     <div class="text-center testiomanials_heder_txt_col">
@@ -106,3 +107,4 @@
     </div>
     </div>
     </div>
+    </section>

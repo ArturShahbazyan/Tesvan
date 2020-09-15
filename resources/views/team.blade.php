@@ -1,3 +1,4 @@
+<section id="team">
 <div class="container">
     <div class="text-center team_heder_txt_col">
         <h2 class="hue_blue">Our Team</h2>
@@ -49,3 +50,4 @@
 
                         </div>
                     </div>
+                    </section>

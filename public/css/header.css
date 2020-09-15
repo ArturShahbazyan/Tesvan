@@ -8,6 +8,7 @@ header {
 	-moz-transition: all ease-out .5s;
 	-o-transition: all ease-out .5s;
 	transition: all ease-out .5s;
+	background-color: #ffffff;
 }
 
 @media (max-width: 992px) {
@@ -124,12 +125,6 @@ header .navbar-toggler {
 	color: #585E5D;
 }
 
-@media (max-width: 992px) {
-	.flag {
-    visibility: hidden;
-  
-  }
-}
 
 .services_dropdown_menu,
 .flags_dropdown_menu {
@@ -138,4 +133,13 @@ header .navbar-toggler {
 	border: none;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 	border-radius: 12px;
+}
+
+.flags_dropdown_menu>a {
+	font-size: 16px;
+
+}
+
+.flags_dropdown_menu>a>img {
+	margin-right:10px;
 }

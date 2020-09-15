@@ -1,18 +1,26 @@
 #team {
-    padding-top: 90px;
+	padding-bottom: 90px;
 }
 
-@media (max-width: 768px){
-    #team {
-        padding-top: 80px;
-    }
+@media (max-width: 1199px) {
+	#team {
+		padding-bottom: 80px;
+	}
 }
 
-@media (max-width: 480px){
-    #team {
-        padding-top: 60px;
-    }
+@media (max-width: 992px) {
+	#team {
+		padding-bottom: 70px;
+	}
 }
+
+@media (max-width: 768px) {
+	#team {
+		padding-bottom: 60px;
+	}
+}
+
+
 
 .team_heder_txt_col>h2 {
     font-weight: 600;

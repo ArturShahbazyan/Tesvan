@@ -1,3 +1,4 @@
+<section id="co_workers">
 <div class="container">
     <div class="text-center co_workers_text_col">
         <h2 class="hue_blue">Co-Workers</h2>
@@ -227,3 +228,4 @@
     </div>
     
 </div>
+</section>

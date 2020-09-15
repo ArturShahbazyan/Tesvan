@@ -37,13 +37,13 @@
          </span>
          </a>
          <div class="dropdown-menu dropdown-menu-right flags_dropdown_menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="lang/es">
+            <a class="dropdown-item hue_blue" href="lang/es">
             <img src="{{asset('images/us.png')}}" width="33px" height="23px">
             English</a>
-            <a class="dropdown-item" href="lang/am">
+            <a class="dropdown-item hue_blue" href="lang/am">
             <img src="{{asset('images/am.png')}}" width="33px" height="23px">
             Armenian</a>
-            <a class="dropdown-item" href="lang/ru">
+            <a class="dropdown-item hue_blue" href="lang/ru">
             <img src="{{asset('images/ru.png')}}" width="33px" height="23px">
             Russian</a>
          </div>
@@ -71,8 +71,8 @@
                        Services
                      </a>
                      <div class="dropdown-menu dropdown-menu-right services_dropdown_menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item hue_blue" href="">Apply for Courses </a>
-                        <a class="dropdown-item hue_blue" href="">Apply for a job</a>
+                        <a class="dropdown-item hue_blue" href=" ">Apply for Courses </a>
+                        <a class="dropdown-item hue_blue" href="{{ url('job') }}">Apply for a job</a>
                      </div>
                   </li>
                </ul>
@@ -80,17 +80,17 @@
             <li
                id="menu-item-2"
                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2">
-               <a href="#QA" class="hue_blue">Quality</a>
+               <a href="{{ url('#QA') }}" class="hue_blue">Quality</a>
             </li>
             <li
                id="menu-item-3"
                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3">
-               <a href="#we-do" class="hue_blue">Courses</a>
+               <a href="{{ url('/#we-do') }}" class="hue_blue">Courses</a>
             </li>
             <li
                id="menu-item-4"
                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4">
-               <a href="#we-do" class="hue_blue">Co-Workers</a>
+               <a href="{{ url('/#co_workers') }}" class="hue_blue">Co-Workers</a>
             </li>
             <li
                id="menu-item-15"
@@ -100,12 +100,12 @@
             <li
                id="menu-item-16"
                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16">
-               <a href="#testimonials" class="hue_blue">Testimonials</a>
+               <a href="{{ url('/#testimonials') }}" class="hue_blue">Testimonials</a>
             </li>
             <li
                id="menu-item-17"
                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17">
-               <a href="#team" class="hue_blue">Team</a>
+               <a href="{{ url('/#team') }}" class="hue_blue">Team</a>
             </li>
             <li
                class="menu-btn menu-item menu-item-type-custom menu-item-object-custom
@@ -139,13 +139,13 @@
                      </span>
                      </a>
                      <div class="dropdown-menu dropdown-menu-right flags_dropdown_menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="lang/es">
+                        <a class="dropdown-item hue_blue" href="lang/es">
                         <img src="{{asset('images/us.png')}}" width="33px" height="23px">
                         English</a>
-                        <a class="dropdown-item" href="lang/am">
+                        <a class="dropdown-item hue_blue" href="lang/am">
                         <img src="{{asset('images/am.png')}}" width="33px" height="23px">
                         Armenian</a>
-                        <a class="dropdown-item" href="lang/ru">
+                        <a class="dropdown-item hue_blue" href="lang/ru">
                         <img src="{{asset('images/ru.png')}}" width="33px" height="23px">
                         Russian</a>
                      </div>

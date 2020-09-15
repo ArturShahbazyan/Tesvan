@@ -1,3 +1,4 @@
+<section id="contact_us">
 <div class="container">
     <div class="text-center contact_us_heder_txt_col">
         <h2 class="hue_blue">Contact Us</h2>
@@ -99,3 +100,4 @@
                                 </div>
                             </div>
                         </div>
+                        </section>

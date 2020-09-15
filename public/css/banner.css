@@ -1,3 +1,27 @@
+#banner {
+	padding-bottom: 90px;
+}
+
+@media (max-width: 1199px) {
+	#banner {
+		padding-bottom: 80px;
+	}
+}
+
+@media (max-width: 992px) {
+	#banner {
+		padding-bottom: 70px;
+	}
+}
+
+@media (max-width: 768px) {
+	#banner {
+		padding-bottom: 60px;
+	}
+}
+
+
+
 
 .productive_col>h1 {
 font-family: 'OpenSans-Bold';

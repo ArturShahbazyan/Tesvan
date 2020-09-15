@@ -1,64 +1,67 @@
 
 $(window).on('load', function () {
     $("#cover").fadeOut(1000);
+
 });
+
+
+
 
 $(document).ready(function () {
 
     // change element position
-    /*  $(document).ready(function () {
-         $(".square_d").mouseover(function () {
-             alert("hello");
-             $("square_d_aqua > h5 ").css({
-                 "position": "absolute",
-                 "-moz - transform": "rotate(-10deg)",
-                 "-webkit - transform": "rotate(-10deg)",
-                 "-ms - transform": "rotate(-10deg)",
-                 "transform": "rotate(-10deg)"
-             }),
-                 $(".square_d_aqua > svg ").css({
-                     "position": "absolute",
-                     "-moz - transform": "rotate(-10deg)",
-                     "-webkit - transform": "rotate(-10deg)",
-                     "-ms - transform": "rotate(-10deg)",
-                     "transform": "rotate(-10deg)"
-                 })
-             $(".square_d_aqua > p ").css({
-                 "position": "absolute",
-                 "-moz - transform": "rotate(-10deg)",
-                 "-webkit - transform": "rotate(-10deg)",
-                 "-ms - transform": "rotate(-10deg)",
-                 "transform": "rotate(-10deg)"
-             });
-         });
-     }); */
+    $(".square_d_aqua, .square_d_aqua ~ h5, .square_d_aqua ~ svg, .square_d_aqua ~ p").mouseover(function () {
+        $(".square_d_aqua").css({
+            "-moz - transform": "rotate(0deg)",
+            "-webkit - transform": "rotate(0deg)",
+            "-ms - transform": "rotate(0deg)",
+            "transform": "rotate(0deg)"
+        });
+    });
 
+    $(".square_d_aqua, .square_d_aqua ~ h5, .square_d_aqua ~ svg, .square_d_aqua ~ p").mouseout(function () {
+        $(".square_d_aqua").css({
+            "-moz - transform": "rotate(10deg)",
+            "-webkit - transform": "rotate(10deg)",
+            "-ms - transform": "rotate(10deg)",
+            "transform": "rotate(10deg)"
+        });
 
-    // >>>>>> MAP >>>>>>>
-    var countryElements = document.getElementById('Group_507').childNodes;
-    var countryCount = countryElements.length;
-    var countryName = document.querySelector(".countryName");
+    });
 
-    for (var i = 0; i < countryCount; i++) {
-        countryElements[i].onmouseover = function () {
-            countryName.innerHTML = this.getAttribute('data-country');
-        }
-        countryElements[i].onmouseout = function () {
-            countryName.innerHTML = " ";
-        }
-    }
-
-    // >>>>>> MAP >>>>>>>
 
     //Smooth Scroll
-    $(document).on('click', 'a[href^="#"]', function (event) {
+
+    // Select all links with hashes
+    $('a[href*="#"]')
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function (event) {
+            // On-page links
+            var target = $(this.hash);
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 150
+                }, 2000, function () {
+
+                });
+            }
+        });
+
+
+    /* $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href'))
                 .offset()
                 .top - 150
         }, 800);
-    });
+    }); */
+
+
+
+
+
 
     $(function () {
 
@@ -145,6 +148,7 @@ $(document).ready(function () {
             autoplay: true, /* this is the new line */
             autoplaySpeed: 2000,
             infinite: true,
+            accessibility: false,
             responsive: [
 
                 {
@@ -182,6 +186,7 @@ $(document).ready(function () {
             slidesToScroll: 1,
             arrows: true,
             dots: true,
+            accessibility: false,
             responsive: [
                 {
                     breakpoint: 1199,
@@ -209,10 +214,6 @@ $(document).ready(function () {
 
     });
 
-    /* ------------------------- flags start ------------------------- */
-
-
-    /* ------------------------- flags end ------------------------- */
 
 });
 

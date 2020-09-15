@@ -1,5 +1,23 @@
-#testiomanials {
-    padding-top: 90px;
+#testimonials {
+	padding-bottom: 90px;
+}
+
+@media (max-width: 1199px) {
+	#testimonials {
+		padding-bottom: 80px;
+	}
+}
+
+@media (max-width: 992px) {
+	#testimonials {
+		padding-bottom: 70px;
+	}
+}
+
+@media (max-width: 768px) {
+	#testimonials {
+		padding-bottom: 60px;
+	}
 }
 
 .testiomanials_heder_txt_col > h2 {

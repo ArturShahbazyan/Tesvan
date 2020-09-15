@@ -1,23 +1,23 @@
 #customers {
-    padding-top: 120px;
+	padding-bottom: 90px;
 }
 
 @media (max-width: 1199px) {
-    #customers {
-        padding-top: 100px;
-    }
+	#customers {
+		padding-bottom: 80px;
+	}
 }
 
-@media (max-width: 780px) {
-    #customers {
-        padding-top: 80px;
-    }
+@media (max-width: 992px) {
+	#customers {
+		padding-bottom: 70px;
+	}
 }
 
-@media (max-width: 480px) {
-    #customers {
-        padding-top: 40px;
-    }
+@media (max-width: 768px) {
+	#customers {
+		padding-bottom: 60px;
+	}
 }
 
 #Group_507 > path:hover {

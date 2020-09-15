@@ -79,9 +79,14 @@ footer .copyright p {
 /* >>>>>>>>>>>>>>>> footer new styles >>>>>>>>>>>>>> */
 
 
+.social-network {
+   padding-top:100px;
+}
+
 @media (max-width: 992px) {
     .footer_row {
-        padding-bottom:40px;
+		padding-bottom:40px;
+		padding-top:0px;
     }
 }
 

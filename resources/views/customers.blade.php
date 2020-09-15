@@ -1,3 +1,4 @@
+<section id="customers">
 <div class="container">
     <div class="text-center customers_text_col">
         <h2 class="hue_blue">Customers</h2>
@@ -1622,3 +1623,4 @@
         </svg>
     </div>
 </div>
+</section>
