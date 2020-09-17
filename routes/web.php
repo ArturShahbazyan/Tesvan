@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/job', function () {
     return view('job/job');
 });
+
+Route::get('/courses', function () {
+    return view('courses/courses');
+});

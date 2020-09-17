@@ -1,0 +1,297 @@
+#job_hire {
+    padding-bottom: 90px;
+}
+
+@media (max-width: 1199px) {
+    #job_hire {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    #job_hire {
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    #job_hire {
+        padding-bottom: 60px;
+    }
+}
+
+.job_hire_text_col > h2 {
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+@media (max-width: 768px) {
+    .job_hire_text_col > h2 {
+        font-size: 35px;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .job_hire_text_col > h2 {
+        font-size: 25px;
+    }
+}
+
+.job_hire_text_col > p {
+    font-size: 18px;
+    margin-top: 35px;
+    width: 600px;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .job_hire_text_col > p {
+        font-size: 17px;
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .job_hire_text_col > p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}
+
+.will_join_col {
+    width: 242px;
+    height: 278px;
+    background: #FBFBFB;
+    border: 3px dashed #F4B41A;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.23);
+    border-radius: 12px;
+    padding-top: 40px;
+}
+
+@media (max-width: 1199px) {
+    .will_join_col {
+        width: 200px;
+        height: 250px;
+        padding-top: 21px;
+    }
+
+}
+
+.members_number_svg,
+.will_join_number_svg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+    .members_number_svg,
+.will_join_number_svg {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+}
+
+
+@media (max-width: 480px) {
+    .will_join_icon_svg > svg,
+    .members_icon_svg > svg {
+        width: 60px;
+        width: 60px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .will_join_number_svg>svg,
+    .members_number_svg>svg {
+        width: 40px;
+        width: 40px;
+
+}
+
+}
+
+.members_col {
+    padding-top: 280px;
+}
+
+.members_col > p,
+.will_join_col > p {
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .will_join_col > p,
+    .members_col > p {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .members_col > p,
+    .will_join_col > p {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .give_txt_row {
+        text-align: center;
+    }
+}
+
+
+.give_txt_row > h5 {
+    font-size: 22px;
+}
+
+@media (max-width: 768px) {
+    .give_txt_row > h5 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .give_txt_row > h5 {
+        font-size: 18px;
+    }
+}
+
+
+.give_txt_row > p {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 480px) {
+    .give_txt_row > p {
+        font-size: 16px;
+    }
+}
+
+
+.hire_row {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+
+}
+
+@media (max-width: 768px) {
+    .hire_row {
+        padding-top: 50px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .hire_row {
+        padding-top: 30px;
+    }
+
+}
+
+.hire_icons_col {
+    margin-right: 40px;
+}
+
+@media (max-width: 1200px) {
+    .hire_icons_col {
+        margin-right: 15px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .hire_icons_col {
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto 30px;
+    }
+
+}
+
+.offer_col {
+    margin-left: 40px;
+}
+
+@media (max-width: 1200px) {
+    .offer_col {
+        margin-left: 15px;
+    }
+
+}
+
+.single_offer_txt_col > span {
+    font-size: 18px;
+}
+
+@media (max-width: 480px){
+    .single_offer_txt_col > span {
+        font-size: 16px;
+    }
+    }
+
+.single_offer_txt_col > img {
+    margin-right: 15px;
+    margin-bottom: 25px;
+
+}
+
+.single_offer_txt_col {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.single_offer_txt_col > img {
+    position: absolute;
+    top: 3px;
+}
+
+.single_offer_txt_col > span {
+    margin-left: 46px;
+    line-height: 160%;
+}
+
+.offer_container > h5 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 992px) {
+    .offer_container > h5 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    .give_txt_row > h5 {
+        font-size: 20px;
+    }
+    }
+
+    @media (max-width: 480px){
+        .give_txt_row > h5 {
+            font-size: 18px;
+        }
+        }
+
+.offer_txt_row {
+    padding-top: 20px;
+}
+
+
+
+
+

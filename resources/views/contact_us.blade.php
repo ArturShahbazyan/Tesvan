@@ -33,15 +33,15 @@
                                 </div>
                                 <div class="icons_row">
                                     <div class="single-icon">
-                                        <a href="index.html" target="_blank">
+                                        <a href="https://www.facebook.com/tesvanllc" target="_blank">
                                             <div class="icon-bg">
                                                 <img src="images/social_icons/facebook.svg"></div>
                                             </a>
-                                            <a href="index.html" target="_blank">
+                                            <a href="https://www.upwork.com/o/companies/~01e834c1caa24e2f82/" target="_blank">
                                                 <div class="icon-bg">
                                                     <img src="images/social_icons/upwork.svg"></div>
                                                 </a>
-                                                <a href="index.html" target="_blank">
+                                                <a href="https://www.linkedin.com/company/tesvan/" target="_blank">
                                                     <div class="icon-bg">
                                                         <img src="images/social_icons/linkedin.svg"></div>
                                                     </a>

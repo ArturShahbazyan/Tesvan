@@ -3,7 +3,7 @@
 <nav class="navbar navbar-expand-lg navbar-light p-0">
 
    <div class="d-flex">
-      <a href="">
+      <a href="http://127.0.0.1:8000">
       <img src="images/logo.png" class="logo" alt="Logo"></a>
       <div class="w-100 text-right">
          <button
@@ -71,7 +71,7 @@
                        Services
                      </a>
                      <div class="dropdown-menu dropdown-menu-right services_dropdown_menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item hue_blue" href=" ">Apply for Courses </a>
+                        <a class="dropdown-item hue_blue" href="{{ url('courses') }}">Apply for Courses </a>
                         <a class="dropdown-item hue_blue" href="{{ url('job') }}">Apply for a job</a>
                      </div>
                   </li>

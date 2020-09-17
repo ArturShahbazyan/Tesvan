@@ -2,8 +2,10 @@
 
 @section('content')
 
-    @include('job.hire')
+    @include('job.job_banner')
+
+    @include('job.job_hire')
     
-    @include('job.apply')
+    @include('job.job_apply')
 
 @endsection

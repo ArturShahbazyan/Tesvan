@@ -1,0 +1,381 @@
+ #courses_reg {
+    padding-bottom: 130px;
+}
+
+/* @media (max-width: 1199px) {
+    #job_apply {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    #job_apply {
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    #job_apply {
+        padding-bottom: 60px;
+    }
+} */
+
+.courses_reg_text_col > h2 {
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+@media (max-width: 768px) {
+    .courses_reg_text_col > h2 {
+        font-size: 35px;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .courses_reg_text_col > h2 {
+        font-size: 25px;
+    }
+}
+
+.courses_reg_text_col > p {
+    font-size: 18px;
+    margin-top: 35px;
+    width: 600px;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .courses_reg_text_col > p {
+        font-size: 17px;
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .courses_reg_text_col > p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}
+
+
+/* ------------------------------------------------------ */
+
+
+
+.courses_reg_form_col, .courses_reg_form_contacts_col {
+	width: 600px;
+}
+
+@media (max-width: 1439px) {
+    .courses_reg_form_col, .courses_reg_form_contacts_col {
+		width: 500px;
+	}
+}
+
+@media (max-width: 1199px) {
+    .courses_reg_form_col, .courses_reg_form_contacts_col {
+		width: 410px;
+	}
+}
+
+@media (max-width: 992px){
+.courses_reg_form_col, .courses_reg_form_contacts_col {
+    width: 100%;
+}
+}
+
+.courses_reg_form_contacts_col {
+    min-height: 480px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 6px 0px 0px 6px;
+    position: relative;
+    top: 160px;
+    padding: 60px 60px 60px 60px;
+    background-color: #ffffff;
+}
+
+@media (max-width: 992px) {
+	.courses_reg_form_contacts_col {
+        top:0;
+        min-height: auto;
+        margin-bottom: 30px;
+        text-align: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.courses_reg_form_contacts_col {
+        padding: 40px 30px 30px 30px;
+	}
+}
+
+
+.courses_reg_form_col {
+    height: 100%;
+    min-height: 800px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+}
+
+.courses_reg_form_row {
+    position: relative;
+	padding-top: 80px;
+	margin-right: 15px;
+    margin-left: 15px;
+}
+
+@media (max-width: 992px) {
+	.courses_reg_form_row {
+		padding-top: 70px;
+	}
+}
+
+@media (max-width: 768px) {
+	.courses_reg_form_row {
+		padding-top: 60px;
+	}
+}
+
+@media (max-width: 480px) {
+	.courses_reg_form_row {
+		padding-top: 40px;
+	}
+}
+
+
+
+.courses_reg_tesvan_form {
+	max-width:434px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1439px) {
+    .courses_reg_tesvan_form {
+		max-width:350px;
+	}
+}
+
+@media (max-width: 1199px) {
+    .courses_reg_tesvan_form {
+		max-width:330px;
+	}
+}
+
+@media (max-width: 992px){
+.courses_reg_tesvan_form {
+    max-width: 70%;
+ }
+}
+
+
+.courses_reg_tesvan_form > p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.courses_reg_custom_form_group {
+    position: relative;
+}
+
+.courses_reg_custom_form_group > label {
+    font-size: 16px;
+    position: absolute;
+    left: 35px;
+    top: -13px;
+    background-color: #fff;
+    text-align: center;
+    color: #A5A5A5;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.email,
+.name,
+.phone,
+.surname, 
+.city {
+    width: 100%;
+    height: 61px;
+    border: 1px solid #A5A5A5;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+
+
+.courses_reg_form_col > h5 {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+@media (max-width: 992px) {
+	.courses_reg_form_col > h5 {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 768px) {
+	.courses_reg_form_col > h5 {
+		font-size: 21px;
+	}
+}
+
+@media (max-width: 480px) {
+	.courses_reg_form_col > h5 {
+		font-size: 20px;
+	}
+}
+
+.courses_reg_tesvan_form_btn {
+    max-width: 241px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #143E59;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: bold;
+    height: 58px;
+    box-sizing: border-box;
+	border-radius: 6px;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+@media (max-width: 1439px) {
+    .courses_reg_tesvan_form_btn {
+        max-width: 210px;
+
+    }
+}
+
+@media (max-width: 1199px) {
+    .courses_reg_tesvan_form_btn {
+        max-width: 200px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .courses_reg_tesvan_form_btn {
+        max-width: 190px;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .courses_reg_tesvan_form_btn {
+        max-width: 160px;
+
+    }
+}
+
+.courses_reg_tesvan_form_btn:hover {
+    background-color: #143E5A;
+    color: #ffffff;
+}
+
+.courses_reg_custom_form_input {
+    margin-bottom: 35px;
+}
+
+.form-control:focus {
+    color: #0D171D;
+    border: 1px solid #A5A5A5;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.courses_reg_form_contacts_col>h5 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+	.courses_reg_form_contacts_col > h5 {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 768px) {
+	.courses_reg_form_contacts_col > h5 {
+		font-size: 21px;
+	}
+}
+
+@media (max-width: 480px) {
+	.courses_reg_form_contacts_col > h5 {
+		font-size: 20px;
+	}
+}
+
+.courses_reg_form_contacts_col p {
+    font-size: 18px;
+  }
+
+  @media (max-width: 768px) {
+	.courses_reg_form_contacts_col p {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 480px) {
+	.courses_reg_form_contacts_col p {
+		font-size: 16px;
+	}
+}
+
+  .courses_reg_form_contacts_col>.beginner_txt {
+      padding-top: 30px;
+      margin-bottom: 0px;
+  }
+
+
+  @media (max-width: 480px) {
+    .courses_reg_form_contacts_col>.beginner_txt {
+        padding-top: 20px;
+    }
+}
+
+.courses_reg_form_contacts_col>.contact_you {
+    padding-top: 30px;
+}
+
+@media (max-width: 480px) {
+    .courses_reg_form_contacts_col>.contact_you {
+        padding-top: 20px;
+    }
+}
+
+
+
+
+  @media (max-width: 992px) {
+	.pointer_svg, .pointer_svg>svg  {
+		display: none;
+	}
+}
+
+
+.view_details {
+    font-size: 18px;
+    color:#018CCA;
+}
+
+.view_details:hover {
+    font-size: 18px;
+    color:#03a9f4;
+
+}

@@ -27,6 +27,10 @@
         <link rel="stylesheet" type="text/css" href="/css/partners.css">
         <link rel="stylesheet" type="text/css" href="/css/contact_us.css">
         <link rel="stylesheet" type="text/css" href="/css/footer.css">
+        <link rel="stylesheet" type="text/css" href="/css/job_hire.css">
+        <link rel="stylesheet" type="text/css" href="/css/job_apply.css">
+        <link rel="stylesheet" type="text/css" href="/css/courses_qa_courses.css">
+        <link rel="stylesheet" type="text/css" href="/css/courses_reg.css">
     </head>
 <body>
 
