@@ -1,4 +1,6 @@
+
 <section id="job_apply">
+
 <div class="container">
     <div class="text-center job_apply_text_col">
         <h2 class="hue_blue">Apply for a Job</h2>
@@ -53,8 +55,10 @@
 
                              <p class="hue_blue">All fields are required</p>
                                 <form autocomplete="off">
-
+                               <div id="signup" class="wizard">
+                               <div class="pt-2"></div>
                                     <div class="form-group apply_custom_form_group">
+                                        
                                         <label for="name">Name</label>
                                         <input
                                             type="text"
@@ -91,7 +95,39 @@
                                                       id="city">
                                                  </div>
 
-                                                <button type="submit" class="hue_blue apply_tesvan_form_btn">Submit</button>
+                                                <button data-next-id="form1" validationDiv="signup" type="button" class="continue button button-action hue_blue apply_tesvan_form_btn">Next</button>
+                                                </div>
+
+                            <div id="form1" class="wizard">
+                            <div class="pt-2"></div>
+                                    <div class="form-group apply_custom_form_group">
+                                        <label for="name">Namesdfsdf</label>
+                                        <input
+                                            type="text"
+                                            class="name form-control apply_custom_form_input"
+                                            id="name">
+                                        </div>
+                                        <div class="form-group apply_custom_form_group">
+                                        <label for="surname">Surnamesdfsdf</label>
+                                        <input
+                                            type="text"
+                                            class="surname form-control apply_custom_form_input"
+                                            id="surname">
+                                        </div>
+                                        <div class="form-group apply_custom_form_group">
+                                            <label for="email">Emailsfsdf</label>
+                                            <input
+                                                type="email"
+                                                class="form-control email apply_custom_form_input"
+                                                id="email">
+                                            </div>
+        
+
+                                            <button class="back">Back</button>
+                                            <button>One more</button>
+
+                                    </div>
+
                                             </form>
                                         </div>
                                         </div>
@@ -102,3 +138,39 @@
     
 </div>
 </section>
+
+
+<!-- >>>>>>>>>> Modal >>>>>>>>>> -->
+
+                          
+
+<!-- <<<<<<<<<< Modal <<<<<<<<<< -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+$(".wizard").hide();
+$("#signup").show();
+$(".continue").click(function () {
+
+    var valid = true;
+    $("#" + $(this).attr("validationDiv")).find("input").each(function () {
+        if ($(this).val() == "") valid = false;
+    });
+    if (valid) {
+        $(".wizard").slideUp(800);
+        $("#" + $(this).attr("data-next-id")).slideDown(800);
+    }
+});
+
+$(".back").click(function () {
+      $(".wizard").slideUp(800);
+      $("#signup").slideDown(800);
+    });
+
+
+
+</script>
+
+

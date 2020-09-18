@@ -91,7 +91,7 @@
                                                         <label for="city">City</label>
                                                         <input type="text" class="city form-control courses_reg_custom_form_input" id="city"></div>
 
-                                                        <button type="submit" class="hue_blue courses_reg_tesvan_form_btn">Submit</button>
+                                                        <button type="submit" class="hue_blue courses_reg_tesvan_form_btn">Next</button>
                                                     </form>
                                                 </div>
                                             </div>

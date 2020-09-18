@@ -3,7 +3,7 @@ footer {
     padding-bottom: 15px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     footer {
         padding-top: 40px;
         padding-bottom: 10px;
@@ -48,7 +48,7 @@ footer .social-network .single-icon {
     display: flex;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     footer .social-network .single-icon {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -66,7 +66,7 @@ footer .social-network .single-icon a .icon-bg {
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     footer .copyright {
         padding-top: 20px;
     }
@@ -83,7 +83,7 @@ footer .copyright p {
    padding-top:100px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .footer_row {
 		padding-bottom:40px;
 		padding-top:0px;

@@ -8,13 +8,13 @@
 	}
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	#co_workers {
 		padding-bottom: 90px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	#co_workers {
 		padding-bottom: 70px;
 	}
@@ -27,19 +27,19 @@
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .flag_svg {
         width: 70%;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .flag_svg {
         width: 50%;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .flag_svg {
         width: 60%;
     }
@@ -60,14 +60,14 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .co_workers_text_col > h2 {
         font-size: 35px;
 
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .co_workers_text_col > h2 {
         font-size: 25px;
     }
@@ -80,7 +80,7 @@
     display: inline-block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .co_workers_text_col > p {
         font-size: 17px;
         margin-top: 30px;
@@ -88,7 +88,7 @@
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 479px){
 .co_workers_text_col > p {
     font-size: 15px;
     margin-top: 20px;
@@ -99,19 +99,19 @@
     padding-top: 60px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .flag_col {
         padding-top: 40px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .flag_col {
         padding-top: 20px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .flag_col {
         margin-bottom: 25px;
     }
@@ -136,14 +136,14 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .flag_txt {
         margin-top:-5px;
     }
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .flag_txt {
         margin-top:-15px;
     }

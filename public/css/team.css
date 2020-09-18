@@ -8,13 +8,13 @@
 	}
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	#team {
 		padding-bottom: 70px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	#team {
 		padding-bottom: 60px;
 	}
@@ -28,7 +28,7 @@ font-size: 40px;
  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     .team_heder_txt_col > h2 {
         font-size: 35px;
@@ -36,7 +36,7 @@ font-size: 40px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
 
     .team_heder_txt_col > h2 {
         font-size: 25px;
@@ -51,7 +51,7 @@ font-size: 40px;
     margin: 45px auto;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .team_heder_txt_col>p {
     font-size: 17px;
     margin: 35px auto;
@@ -59,7 +59,7 @@ font-size: 40px;
 }
 }
 
-@media (max-width: 480px){
+@media (max-width: 479px){
     .team_heder_txt_col>p {
     font-size: 16px;
     margin: 25px auto;
@@ -80,7 +80,7 @@ font-size: 40px;
     font-size: 60px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .members-slider .slick-dots li button::before {
         font-size: 50px;
     }
@@ -90,7 +90,7 @@ font-size: 40px;
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 479px){
     .members-slider .slick-dots li button::before {
         font-size: 40px;
     }
@@ -113,14 +113,14 @@ font-size: 40px;
     margin-bottom: 70px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     
     .team_member_row {
         margin-bottom: 50px;
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 479px){
     .team_member_row {
         width: 60%;
         margin-bottom: 40px;

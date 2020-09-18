@@ -8,13 +8,13 @@
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     #job_hire {
         padding-bottom: 70px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #job_hire {
         padding-bottom: 60px;
     }
@@ -26,14 +26,14 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .job_hire_text_col > h2 {
         font-size: 35px;
 
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .job_hire_text_col > h2 {
         font-size: 25px;
     }
@@ -46,7 +46,7 @@
     display: inline-block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .job_hire_text_col > p {
         font-size: 17px;
         margin-top: 30px;
@@ -54,7 +54,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .job_hire_text_col > p {
         font-size: 15px;
         margin-top: 20px;
@@ -87,7 +87,7 @@
     padding-bottom: 20px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .members_number_svg,
 .will_join_number_svg {
     padding-top: 5px;
@@ -97,7 +97,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .will_join_icon_svg > svg,
     .members_icon_svg > svg {
         width: 60px;
@@ -106,7 +106,7 @@
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .will_join_number_svg>svg,
     .members_number_svg>svg {
         width: 40px;
@@ -125,7 +125,7 @@
     font-size: 24px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .will_join_col > p,
     .members_col > p {
         font-size: 22px;
@@ -133,7 +133,7 @@
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .members_col > p,
     .will_join_col > p {
         font-size: 20px;
@@ -141,7 +141,7 @@
 
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .give_txt_row {
         text-align: center;
     }
@@ -152,13 +152,13 @@
     font-size: 22px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .give_txt_row > h5 {
         font-size: 20px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .give_txt_row > h5 {
         font-size: 18px;
     }
@@ -172,7 +172,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .give_txt_row > p {
         font-size: 16px;
     }
@@ -187,14 +187,14 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .hire_row {
         padding-top: 50px;
     }
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .hire_row {
         padding-top: 30px;
     }
@@ -212,7 +212,7 @@
 
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .hire_icons_col {
         max-width: 400px;
         width: 100%;
@@ -236,7 +236,7 @@
     font-size: 18px;
 }
 
-@media (max-width: 480px){
+@media (max-width: 479px){
     .single_offer_txt_col > span {
         font-size: 16px;
     }
@@ -269,19 +269,19 @@
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .offer_container > h5 {
         text-align: center;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .give_txt_row > h5 {
         font-size: 20px;
     }
     }
 
-    @media (max-width: 480px){
+    @media (max-width: 479px){
         .give_txt_row > h5 {
             font-size: 18px;
         }

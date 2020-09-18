@@ -8,13 +8,13 @@
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     #job_apply {
         padding-bottom: 70px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #job_apply {
         padding-bottom: 60px;
     }
@@ -26,14 +26,14 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .job_apply_text_col > h2 {
         font-size: 35px;
 
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .job_apply_text_col > h2 {
         font-size: 25px;
     }
@@ -46,7 +46,7 @@
     display: inline-block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .job_apply_text_col > p {
         font-size: 17px;
         margin-top: 30px;
@@ -54,7 +54,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .job_apply_text_col > p {
         font-size: 15px;
         margin-top: 20px;
@@ -82,14 +82,14 @@
 	}
 }
 
-@media (max-width: 992px){
+@media (max-width: 991px){
 .apply_form_col, .apply_form_contacts_col {
     width: 100%;
 }
 }
 
 .apply_form_contacts_col {
-    min-height: 480px;
+    min-height: 479px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
     border-radius: 6px 0px 0px 6px;
     position: relative;
@@ -98,7 +98,7 @@
     background-color: #ffffff;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.apply_form_contacts_col {
         top:0;
         min-height: auto;
@@ -107,7 +107,7 @@
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
 	.apply_form_contacts_col {
         padding: 40px 30px 30px 30px;
 	}
@@ -131,19 +131,19 @@
     margin-left: 15px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.apply_form_row {
 		padding-top: 70px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.apply_form_row {
 		padding-top: 60px;
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
 	.apply_form_row {
 		padding-top: 40px;
 	}
@@ -169,7 +169,7 @@
 	}
 }
 
-@media (max-width: 992px){
+@media (max-width: 991px){
 .apply_tesvan_form {
     max-width: 70%;
  }
@@ -178,7 +178,7 @@
 
 .apply_tesvan_form > p {
     font-size: 14px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .apply_custom_form_group {
@@ -196,6 +196,8 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+
 
 .email,
 .name,
@@ -218,19 +220,19 @@
     font-size: 24px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.apply_form_col > h5 {
 		font-size: 22px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.apply_form_col > h5 {
 		font-size: 21px;
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
 	.apply_form_col > h5 {
 		font-size: 20px;
 	}
@@ -239,8 +241,9 @@
 .apply_tesvan_form_btn {
     max-width: 241px;
     width: 100%;
-    background-color: #ffffff;
-    border: 1px solid #143E59;
+    background-color:#143E59;
+    border: 2px solid #143E59;
+    color: #ffffff;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -268,14 +271,14 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .apply_tesvan_form_btn {
         max-width: 190px;
 
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .apply_tesvan_form_btn {
         max-width: 160px;
 
@@ -283,8 +286,8 @@
 }
 
 .apply_tesvan_form_btn:hover {
-    background-color: #143E5A;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #143E5A;
 }
 
 .apply_custom_form_input {
@@ -303,19 +306,19 @@
   font-weight: bold;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.apply_form_contacts_col > h5 {
 		font-size: 22px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.apply_form_contacts_col > h5 {
 		font-size: 21px;
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
 	.apply_form_contacts_col > h5 {
 		font-size: 20px;
 	}
@@ -325,13 +328,13 @@
     font-size: 18px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
 	.apply_form_contacts_col p {
 		font-size: 17px;
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
 	.apply_form_contacts_col p {
 		font-size: 16px;
 	}
@@ -342,7 +345,7 @@
       padding-bottom: 40px;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     .apply_form_contacts_col>.beginner_txt {
         padding-top: 20px;
         padding-bottom: 30px;
@@ -353,7 +356,7 @@
 
 
 
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
 	.pointer_svg, .pointer_svg>svg  {
 		display: none;
 	}

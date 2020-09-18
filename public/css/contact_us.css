@@ -7,13 +7,13 @@
     font-size: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .contact_us_heder_txt_col > h2 {
         font-size: 35px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .contact_us_heder_txt_col > h2 {
         font-size: 25px;
 
@@ -26,7 +26,7 @@
     margin: 45px auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .contact_us_heder_txt_col > p {
         font-size: 17px;
         margin: 35px auto;
@@ -34,7 +34,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .contact_us_heder_txt_col > p {
         font-size: 16px;
         margin: 25px auto;
@@ -58,7 +58,7 @@
 	}
 }
 
-@media (max-width: 992px){
+@media (max-width: 991px){
 .form_col, .form_contacts_col {
     width: 100%;
 }
@@ -74,7 +74,7 @@
     background-color: #ffffff;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.form_contacts_col {
 
 		top: 0px;
@@ -83,7 +83,7 @@
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
 	.form_contacts_col {
         padding: 30px 0 0px 16px;
 	}
@@ -107,19 +107,19 @@
     margin-left: 15px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.form_row {
 		padding-top: 70px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.form_row {
 		padding-top: 60px;
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
 	.form_row {
 		padding-top: 40px;
 	}
@@ -131,19 +131,19 @@
     padding-bottom: 15px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.form_contacts_txt_row > h4 {
 		font-size: 22px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.form_contacts_txt_row > h4 {
 		font-size: 21px;
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
 	.form_contacts_txt_row > h4 {
 		font-size: 20px;
 	}
@@ -211,7 +211,7 @@
 	}
 }
 
-@media (max-width: 992px){
+@media (max-width: 991px){
 .tesvan_form {
     max-width: 70%;
 }
@@ -269,19 +269,19 @@
     font-size: 24px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.form_col > h5 {
 		font-size: 22px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.form_col > h5 {
 		font-size: 21px;
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
 	.form_col > h5 > h4 {
 		font-size: 20px;
 	}
@@ -319,14 +319,14 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .tesvan_form_btn {
         max-width: 190px;
 
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .tesvan_form_btn {
         max-width: 160px;
 
