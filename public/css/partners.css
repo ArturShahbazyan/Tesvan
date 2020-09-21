@@ -1,25 +1,24 @@
 #partners {
-	padding-bottom: 90px;
+    padding-bottom: 90px;
 }
 
 @media (max-width: 1199px) {
-	#partners {
-		padding-bottom: 80px;
-	}
+    #partners {
+        padding-bottom: 80px;
+    }
 }
 
 @media (max-width: 991px) {
-	#partners {
-		padding-bottom: 70px;
-	}
+    #partners {
+        padding-bottom: 70px;
+    }
 }
 
 @media (max-width: 767px) {
-	#partners {
-		padding-bottom: 60px;
-	}
+    #partners {
+        padding-bottom: 60px;
+    }
 }
-
 
 .partners_heder_txt_col > h2 {
     font-weight: 600;
@@ -61,71 +60,146 @@
 }
 
 .logos_col {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 91.11px;
+
+    min-height: 100px;
 }
+
+.custo_col,
+.luseen_col,
+.severalnines_col,
+.sgames_col,
+.spreenauten_col {
+    margin-right: 30px;
+}
+
+@media (max-width: 991px) {
+    .custo_col,
+    .luseen_col,
+    .severalnines_col,
+    .sgames_col,
+    .spreenauten_col {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .custo_col,
+    .luseen_col,
+    .severalnines_col {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .sgames_col,
+    .custo_col,
+    .luseen_col,
+    .severalnines_col {
+        margin-bottom: 10px;
+    } 
+}
+
+
 
 .logos_row {
     padding-top: 30px;
 
 }
 
-    @media (max-width: 479px) {
-        .logos_row {
-            padding-top: 20px;
-
-        }
-    } 
-
-    .logos_img {
-        width: 80%;
-    }
-
-    @media (max-width: 991px) {
-        .logos_img {
-            width: 70%;
-        }
-    }
-
-    @media (max-width: 767px) {
-        .logos_img {
-            width: 60%;
-        }
+@media (max-width: 479px) {
+    .logos_row {
+        padding-top: 20px;
 
     }
+}
 
-    @media (max-width: 991px) {
-        .custo_col,
-        .luseen_col,
-        .vineti_col {
-            margin-bottom: 80px;
+.severalnines_col {
+    background-image: url("../images/logo_black/severalnines.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
 
-        }
-    }
+}
 
-    @media (max-width: 772px) {
-        .custo_col,
-        .sgames_col,
-        .luseen_col,
-        .vineti_col {
-            margin-bottom: 30px;
+.severalnines_col:hover {
+    background-image: url("../images/logo_colorfull/severalnines.svg");
+}
 
-        }
-    }
+.custo_col {
+    background-image: url("../images/logo_black/custo.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
 
-    @media (max-width: 479px) {
-        .custo_col,
-        .sgames_col,
-        .luseen_col,
-        .vineti_col {
-            margin-bottom: 10px;
+}
 
-        }
-    }
+.custo_col:hover {
+    background-image: url("../images/logo_colorfull/custo.svg");
+}
 
-    /* 
+.luseen_col {
+    background-image: url("../images/logo_black/luseen.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.luseen_col:hover {
+    background-image: url("../images/logo_colorfull/luseen.svg");
+}
+
+.sgames_col {
+    background-image: url("../images/logo_black/sgames.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+}
+
+.sgames_col:hover {
+    background-image: url("../images/logo_colorfull/sgames.svg");
+
+}
+
+.spreenauten_col {
+    background-image: url("../images/logo_black/spreenatuen.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+}
+
+.spreenauten_col:hover {
+    background-image: url("../images/logo_colorfull/spreenatuen.svg");
+}
+
+.big_bang_col {
+    background-image: url("../images/logo_black/BB.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+}
+
+.big_bang_col:hover {
+    background-image: url("../images/logo_colorfull/BB.svg");
+}
+
+
+
+@media (max-width: 991px) {
+    .custo_col,
+.luseen_col,
+.severalnines_col,
+.sgames_col,
+.spreenauten_col,
+.big_bang_col {
+    background-size: 80% 80%;
+}
+}
+
+
+/* 
 
 
 
@@ -224,4 +298,3 @@
 } 
 
 */
-

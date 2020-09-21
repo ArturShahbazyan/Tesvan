@@ -251,12 +251,6 @@
     background-color: #ffffff;
 }
 
-.email,
-.name,
-.phone {
-    height: 61px;
-
-}
 
 .message {
     resize: none;
@@ -302,6 +296,7 @@
     font-size: 18px;
     margin: 0 auto;
     display: block;
+    outline: none;
 
 }
 

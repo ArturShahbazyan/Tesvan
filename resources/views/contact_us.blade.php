@@ -51,7 +51,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         </div>
 
@@ -64,33 +63,37 @@
                              <div class="tesvan_form">
 
                              <p class="hue_blue">All fields are required</p>
-                                <form autocomplete="off">
-
+                                <form autocomplete="off" id="form_contact_us" name="contact_us" novalidate>
                                     <div class="form-group custom_form_group">
                                         <label for="name">Name</label>
                                         <input
                                             type="text"
                                             class="name form-control custom_form_input"
-                                            id="name">
+                                            id="name" name="name" onblur="nameValidate()">
+                                            <div id="nameStatus" class="invalid-feedback">Name field is required</div>
                                         </div>
                                         <div class="form-group custom_form_group">
                                             <label for="email">Email</label>
                                             <input
-                                                type="email"
+                                                type="email" name="email"
                                                 class="form-control email custom_form_input"
-                                                id="email">
+                                                id="email" onblur="emailValidate()">
+                                                <div id="emailStatus" class="invalid-feedback">Email field is required</div>
                                             </div>
                                             <div class="form-group custom_form_group">
                                                 <label for="phone">Phone</label>
                                                 <input
-                                                    type="tel"
+                                                    type="tel" name="tel"
                                                     class="phone form-control custom_form_input"
-                                                    id="phone">
+                                                    id="phone" onblur="phoneValidate()">
+                                                    <div id="phoneStatus" class="invalid-feedback">Phone field is required</div>
                                                 </div>
                                                 <div class="form-group custom_form_group">
                                                     <label for="message">Message</label>
-                                                    <textarea class="form-control message custom_form_input" id="message" rows="6"></textarea>
+                                                    <textarea maxlength="250" name="message" class="form-control message custom_form_input" id="message" rows="6" onblur="messageValidate()"></textarea>
+                                                    <div id="messageStatus" class="invalid-feedback">Message field is required</div>
                                                 </div>
+
                                                 <button type="submit" class="hue_blue tesvan_form_btn">Submit</button>
                                             </form>
                                         </div>
@@ -101,3 +104,107 @@
                             </div>
                         </div>
                         </section>
+
+
+
+
+<script>
+
+/* 
+window.onload = function () {
+    document.contact_us.onsubmit = function () { return checkForm(); }
+
+}
+ 
+
+function nameValidate() {
+    var name = document.getElementById('name');
+    if (name.value == "") {
+        name.className = "form-control is-invalid";
+        document.getElementById("nameStatus").innerHTML = "Name field is required";
+        return false;
+    } else {
+        name.className = "form-control is-valid";
+        return true;
+    }
+}
+
+
+function emailValidate() {
+
+var email = document.getElementById('email');
+
+if (email.value == "") {
+    var a = validEmail(email.value);
+    email.className = "form-control is-invalid";
+    document.getElementById("emailStatus").innerHTML = "Email is requied";
+    return false;
+} else if (!validEmail(email.value)) {
+    document.getElementById("emailStatus").innerHTML = "Incorrect email adress";
+    email.className = "form-control is-invalid";
+    return false;
+} else {
+    email.className = "form-control is-valid";
+    return true;
+ }
+}
+
+
+function phoneValidate() {
+
+var phone = document.getElementById('phone');
+
+if (phone.value == "") {
+    var a = validPhone(phone.value);
+    phone.className = "form-control is-invalid";
+    document.getElementById("phoneStatus").innerHTML = "Phone is requied";
+    return false;
+} else if (!validPhone(phone.value)) {
+    document.getElementById("phoneStatus").innerHTML = "Incorrect phone number";
+    phone.className = "form-control is-invalid";
+    return false;
+} else {
+    phone.className = "form-control is-valid";
+    return true;
+ }
+}
+
+
+function messageValidate() {
+    var message = document.getElementById('message');
+    if (message.value == "") {
+        message.className = "form-control is-invalid";
+        document.getElementById("messageStatus").innerHTML = "Message field is required";
+        return false;
+    } else {
+        message.className = "form-control is-valid";
+        return true;
+    }
+}
+
+
+function validEmail(email) {
+    var pattern = /^[a-zA-Z0-9._-]+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+    return pattern.test(email);
+}
+
+function validPhone(phone) {
+    var pattern = /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/;
+    return pattern.test(phone);
+}
+
+
+function checkForm() {
+
+    var valid = true;
+
+    if (!nameValidate()) valid = false;
+    if (!emailValidate()) valid = false;
+    if (!phoneValidate()) valid = false;
+    if (!messageValidate()) valid = false;
+
+    return valid;
+}
+
+</script> */
+    

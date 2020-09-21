@@ -14,14 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function () {
-    return view('index');
-});
-
-Route::get('/job', function () {
-    return view('job/job');
-});
-
-Route::get('/courses', function () {
-    return view('courses/courses');
-});
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/job', 'JobController@index')->name('job');
+Route::get('/courses', 'CoursesController@index')->name('courses');
+Route::get('lang/{locale}', 'LocalizationController@index');

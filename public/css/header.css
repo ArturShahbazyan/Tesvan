@@ -143,3 +143,23 @@ header .navbar-toggler {
 .flags_dropdown_menu>a>img {
 	margin-right:10px;
 }
+
+.arrow_img {
+    margin-left: 10px;
+}
+
+.arrow_img img {
+    width: 14px;
+}
+
+
+@media (max-width: 991px) {
+	#menu-item-19 {
+      display: none;
+	}
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	color: #16181b;
+    background-color: #f8f9fa;
+  }

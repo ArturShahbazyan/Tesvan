@@ -25,11 +25,14 @@
             aria-haspopup="true"
             aria-expanded="false"
             v-pre="v-pre">
-         @switch($locale) @case('am')
+         @switch($locale) 
+         @case('am')
          <img src="{{asset('images/am.png')}}" width="33px" height="22px">
-         @break @case('pk')
+         @break
+          @case('ru')
          <img src="{{asset('images/ru.png')}}" width="33px" height="22px">
-         @break @default
+         @break 
+         @default
          <img src="{{asset('images/us.png')}}" width="33px" height="22px">
          @endswitch
          <span class="arrow_img">
@@ -68,7 +71,7 @@
                         aria-haspopup="true"
                         aria-expanded="false"
                         v-pre="v-pre">
-                       Services
+                        {{ __("Services")}}
                      </a>
                      <div class="dropdown-menu dropdown-menu-right services_dropdown_menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item hue_blue" href="{{ url('courses') }}">Apply for Courses </a>
@@ -80,7 +83,7 @@
             <li
                id="menu-item-2"
                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2">
-               <a href="{{ url('#QA') }}" class="hue_blue">Quality</a>
+               <a href="{{ url('#QA') }}" class="hue_blue">{{ __("Quality")}}</a>
             </li>
             <li
                id="menu-item-3"
@@ -129,7 +132,7 @@
                         v-pre="v-pre">
                      @switch($locale) @case('am')
                      <img src="{{asset('images/am.png')}}" width="33px" height="22px">
-                     @break @case('pk')
+                     @break @case('ru')
                      <img src="{{asset('images/ru.png')}}" width="33px" height="22px">
                      @break @default
                      <img src="{{asset('images/us.png')}}" width="33px" height="22px">
