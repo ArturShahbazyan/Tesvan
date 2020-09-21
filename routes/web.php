@@ -14,7 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', 'HomeController@index')->name('home');
+
+Route::get('/', [
+    'uses' => 'HomeController@index',
+    'as' => 'home'
+]);
+
+Route::post('/', [
+    'uses' => 'HomeController@ContactUsForm',
+    'as' => 'home'
+]);
+/* Route::get('/', 'HomeController@index')->name('home');
+Route::post('/', 'HomeController@ContactUsForm')->name('home'); */
 Route::get('/job', 'JobController@index')->name('job');
 Route::get('/courses', 'CoursesController@index')->name('courses');
 Route::get('lang/{locale}', 'LocalizationController@index');

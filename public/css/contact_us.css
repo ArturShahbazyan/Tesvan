@@ -226,6 +226,7 @@
 
 .custom_form_group {
     position: relative;
+    margin-bottom: 35px;
 }
 
 .custom_form_group > label {
@@ -333,6 +334,3 @@
     color: #ffffff;
 }
 
-.custom_form_input {
-    margin-bottom: 35px;
-}

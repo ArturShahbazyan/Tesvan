@@ -57,22 +57,39 @@
                         <div class="col-xl-6 col-lg-6 col-md-12">
                         <div class="row">
                             
-                            <div class="form_col">
+                            <div class="form_col" id="contact-us">
                                 <h5 class="hue_blue text-center">Let’s discuss your project!</h5>
     
                              <div class="tesvan_form">
 
                              <p class="hue_blue">All fields are required</p>
-                                <form autocomplete="off" id="form_contact_us" name="contact_us" novalidate>
+                                <form method="post" action="{{ url('/#contact-us') }}" enctype="multipart/form-data" autocomplete="off" id="form_contact_us" name="contact_us" novalidate>
+                                @csrf
+                                <!-- >>>>> Success message >>>>> -->
+                                   @if(Session::has('success'))
+                                       <div class="alert alert-success">
+                                           {{Session::get('success')}}
+                                       </div>
+                                   @endif
+                           
+                                   <!-- <<<<< Success message <<<<< -->
+
                                     <div class="form-group custom_form_group">
                                         <label for="name">Name</label>
                                         <input
                                             type="text"
                                             class="name form-control custom_form_input"
                                             id="name" name="name" onblur="nameValidate()">
+                                                <!-- >>>>> Error >>>>> -->
+                                                <!-- @if ($errors->has('name'))
+                                                    <div class="invalid-feedback">
+                                                        {{ $errors->first('name') }}
+                                                    </div>
+                                                @endif -->
+                                                <!-- <<<<< Error <<<<< -->
                                             <div id="nameStatus" class="invalid-feedback">Name field is required</div>
                                         </div>
-                                        <div class="form-group custom_form_group">
+<!--                                         <div class="form-group custom_form_group">
                                             <label for="email">Email</label>
                                             <input
                                                 type="email" name="email"
@@ -92,7 +109,7 @@
                                                     <label for="message">Message</label>
                                                     <textarea maxlength="250" name="message" class="form-control message custom_form_input" id="message" rows="6" onblur="messageValidate()"></textarea>
                                                     <div id="messageStatus" class="invalid-feedback">Message field is required</div>
-                                                </div>
+                                                </div> -->
 
                                                 <button type="submit" class="hue_blue tesvan_form_btn">Submit</button>
                                             </form>
@@ -110,7 +127,7 @@
 
 <script>
 
-/* 
+
 window.onload = function () {
     document.contact_us.onsubmit = function () { return checkForm(); }
 
@@ -199,12 +216,12 @@ function checkForm() {
     var valid = true;
 
     if (!nameValidate()) valid = false;
-    if (!emailValidate()) valid = false;
+    /* if (!emailValidate()) valid = false;
     if (!phoneValidate()) valid = false;
-    if (!messageValidate()) valid = false;
+    if (!messageValidate()) valid = false; */
 
     return valid;
 }
 
-</script> */
+</script> 
     
