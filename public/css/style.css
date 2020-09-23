@@ -1,13 +1,44 @@
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+ font-family: "Mardoto";
+ src: url("../fonts/mardoto/fonts/woff/Mardoto-Regular.woff2") format("woff2"), url("../fonts/mardoto/fonts/woff/Mardoto-Regular.woff2") format("woff2");
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+font-family: "Mardoto";
+src: url("../fonts/mardoto/fonts/woff/Mardoto-Bold.woff2") format("woff2"), url("../fonts/mardoto/fonts/woff/Mardoto-Bold.woff2") format("woff2");
+font-weight: bold;
+font-style: normal;
+}
+
+
+
+
 * {
     padding: 0;
     margin: 0;
+    
 }
 
-/* html {
-    scroll-behavior: smooth;
-
-} */
-
+body {
+  font-family: "OpenSans-Regular", "Mardoto";
+  }
+  
 
 .hue_blue {
     color: #143E5A;
@@ -29,24 +60,6 @@
     background:#EDEDED;
 }
 
-@font-face {
-    font-family: 'OpenSans-Bold';
-    src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2");
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'OpenSans-Regular';
-    src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-       /*  overflow-x: hidden; */
-/*     max-width: 2560px; */
-}
 
 #cover {
     position: fixed;
@@ -164,44 +177,44 @@ label > input[type="radio"] {
 
  
   input[type] {
-     font-size:20px;
+     font-size:18px;
      height: 61px;
      color:#143E59;
   }
 
   input[type]:focus {
-    font-size:20px;
+    font-size:18px;
     height: 61px;
     color:#143E59;
  }
 
  textarea {
-  font-size:20px !important;
+  font-size:18px !important;
   color:#143E59 !important;
   resize: none;
 }
 
 textarea:focus {
-  font-size:20px !important;
+  font-size:18px !important;
   color:#143E59 !important;
   resize: none;
 }
  
 @media (max-width: 767px) {
   input[type] {
-    font-size:18px;
+    font-size:17px;
  }
 
  input[type]:focus {
-  font-size:18px;
+  font-size:17px;
 }
 
 textarea {
-  font-size:18px;
+  font-size:17px;
 }
 
 textarea:focus {
-  font-size:18px;
+  font-size:17px;
 }
 }
  

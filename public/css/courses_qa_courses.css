@@ -9,33 +9,33 @@
 }
 
 
-.qa_courses_hire_text_col > h2 {
+.qa_courses_hire_text_col>h2 {
     font-weight: 600;
     font-size: 40px;
 
 }
 
 @media (max-width: 991px) {
-    .qa_courses_hire_text_col > h2 {
+    .qa_courses_hire_text_col>h2 {
         font-size: 35px;
 
     }
 }
 
 @media (max-width: 767px) {
-    .qa_courses_hire_text_col > h2 {
+    .qa_courses_hire_text_col>h2 {
         font-size: 30px;
 
     }
 }
 
 @media (max-width: 479px) {
-    .qa_courses_hire_text_col > h2 {
+    .qa_courses_hire_text_col>h2 {
         font-size: 25px;
     }
 }
 
-.qa_courses_hire_text_col > p {
+.qa_courses_hire_text_col>p {
     font-size: 18px;
     margin-top: 35px;
     width: 600px;
@@ -43,7 +43,7 @@
 }
 
 @media (max-width: 767px) {
-    .qa_courses_hire_text_col > p {
+    .qa_courses_hire_text_col>p {
         font-size: 17px;
         margin-top: 30px;
         width: 100%;
@@ -51,37 +51,37 @@
 }
 
 @media (max-width: 479px) {
-    .qa_courses_hire_text_col > p {
+    .qa_courses_hire_text_col>p {
         font-size: 16px;
         margin-top: 20px;
     }
 }
 
 .qa_courses_row {
-   padding-top:60px;
+    padding-top: 60px;
 }
 
 @media (max-width: 991px) {
     .qa_courses_row {
-        padding-top:40px;
-     }
-     
+        padding-top: 40px;
+    }
+
 }
 
 .qa_courses_txt_col {
-   max-width: 560px;
-   width: 100%;
+    max-width: 560px;
+    width: 100%;
 }
 
 @media (max-width: 991px) {
     .qa_courses_txt_col {
         max-width: 100%;
         text-align: center;
-     }
+    }
 }
 
 .qa_courses_txt_col p {
-   font-size: 18px;
+    font-size: 18px;
 }
 
 @media (max-width: 767px) {
@@ -100,8 +100,8 @@
 
 @media (max-width: 991px) {
     .qa_txt_blocks {
-       padding-top: 35px;
-    }    
+        padding-top: 35px;
+    }
 }
 
 .qa_txt_single_blok {
@@ -114,11 +114,17 @@
     padding: 40px 36px 40px 36px;
 }
 
+.qa_txt_single_blok:hover {
+    background: #CCEAFE;
+    transition: 0.3s;
+}
+
+
 
 @media (max-width: 991px) {
     .qa_txt_single_blok {
-       margin: 0 auto;
-    }    
+        margin: 0 auto;
+    }
 }
 
 
@@ -153,15 +159,15 @@
 }
 
 .qa_courses_icon_col_c {
-border-radius: 50%;
-width: 242px;
-height: 242px;
-background: #FBFBFB;
-border: 3px dashed #F4B41A;
-box-sizing: border-box;
-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.13);
-padding-top: 30px;
-margin: 0 auto;
+    border-radius: 50%;
+    width: 242px;
+    height: 242px;
+    background: #FBFBFB;
+    border: 3px dashed #F4B41A;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.13);
+    padding-top: 30px;
+    margin: 0 auto;
 }
 
 
@@ -199,24 +205,24 @@ margin: 0 auto;
 
 @media (max-width: 575px) {
     .qa_courses_icon>svg {
-        width: 60px;  
-        height: 60px;  
+        width: 60px;
+        height: 60px;
     }
 
-    .qa_courses_num_icon>svg{
-        width: 20px;  
-        height: 30px;   
+    .qa_courses_num_icon>svg {
+        width: 20px;
+        height: 30px;
     }
 }
 
 
 .qa_courses_icon_col>p {
-    font-size:24px;
+    font-size: 24px;
 }
 
 @media (max-width: 575px) {
     .qa_courses_icon_col>p {
-        font-size:22px;
+        font-size: 22px;
     }
 }
 
@@ -230,7 +236,7 @@ margin: 0 auto;
     .qa_courses_icons_row>div:nth-child(2) {
         padding-top: 0;
         margin-top: -17px;
-        
+
     }
 }
 
@@ -252,7 +258,7 @@ margin: 0 auto;
 @media (max-width: 575px) {
     .qa_courses_txt_icon_row {
         padding-top: 70px;
-    } 
+    }
 }
 
 
@@ -265,11 +271,12 @@ margin: 0 auto;
 }
 
 @media (max-width: 991px) {
+
     .left_qa_courses_icon_col,
     .left_qa_courses_icon_col {
-    max-width: 100%;
+        max-width: 100%;
 
-}    
+    }
 }
 
 
@@ -280,7 +287,7 @@ margin: 0 auto;
 @media (max-width: 991px) {
     .qa_courses_become_qa_col>h5 {
         text-align: center;
-    } 
+    }
 }
 
 .qa_courses_become_qa_col>p {
@@ -352,7 +359,7 @@ margin: 0 auto;
 }
 
 .qa_courses_btn {
-  padding-top: 40px;
+    padding-top: 40px;
 }
 
 .qa_courses_btn>a {
@@ -396,17 +403,10 @@ margin: 0 auto;
 }
 
 .qa_courses_btn>a:hover {
-	background:  #143E5A;
-	color: #ffffff;
+    background: #143E5A;
+    color: #ffffff;
 }
 
 .abilities_col {
     padding: 25px 0 25px 0;
 }
-
-
-
-
-
-
-

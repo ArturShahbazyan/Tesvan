@@ -15,39 +15,39 @@
         <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
             <div class="footer-links footer_row">
                 <div class="single-link">
-                    <a href="#skills" class="hue_black">About Us</a>
+                    <a href="{{ url('/#QA') }}" class="hue_black">About Us</a>
                 </div>
                 <div class="single-link">
-                    <a href="#services" class="hue_black">Quality</a>
+                    <a href="{{ url('/#banner') }}" class="hue_black">Quality</a>
                 </div>
                 <div class="single-link">
-                    <a href="#we-do" class="hue_black">Courses</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
-            <div class="footer-links footer_row">
-                <div class="single-link">
-                    <a href="#team" class="hue_black">Co-Workers</a>
-                </div>
-                <div class="single-link">
-                    <a href="#testimonials" class="hue_black">Customers</a>
-                </div>
-                <div class="single-link">
-                    <a href="#contact" class="hue_black">Team</a>
+                    <a href="{{ url('/courses') }}" class="hue_black">Courses</a>
                 </div>
             </div>
         </div>
         <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
             <div class="footer-links footer_row">
                 <div class="single-link">
-                    <a href="#team" class="hue_black">Testiomanlals</a>
+                    <a href="{{ url('/#co_workers') }}" class="hue_black">Co-Workers</a>
                 </div>
                 <div class="single-link">
-                    <a href="#testimonials" class="hue_black">Job</a>
+                    <a href="{{ url('/#partners') }}" class="hue_black">Customers</a>
                 </div>
                 <div class="single-link">
-                    <a href="#contact" class="hue_black">Contacts</a>
+                    <a href="{{ url('/#team') }}" class="hue_black">Team</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+            <div class="footer-links footer_row">
+                <div class="single-link">
+                    <a href="{{ url('/#testimonials') }}" class="hue_black">Testiomanials</a>
+                </div>
+                <div class="single-link">
+                    <a href="{{ url('/job') }}" class="hue_black">Job</a>
+                </div>
+                <div class="single-link">
+                    <a href="{{ url('/#contact_us') }" class="hue_black">Contacts</a>
                 </div>
             </div>
         </div>

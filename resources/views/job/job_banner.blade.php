@@ -14,7 +14,7 @@
                 to multifaceted real-world business problems.
             </p>
             <div class="custom-btn">
-               <a href="index.html#services" class="hue_bg_b hue_blue">Apply</a>
+               <a href="{{ url('#job_apply') }}" class="hue_bg_b hue_blue">Apply</a>
             </div>
          </div>
       </div>

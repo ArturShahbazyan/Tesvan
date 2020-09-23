@@ -3,7 +3,7 @@
 <nav class="navbar navbar-expand-lg navbar-light p-0">
 
    <div class="d-flex">
-      <a href="http://127.0.0.1:8000">
+      <a href="{{ url('/') }}">
       <img src="images/logo.png" class="logo" alt="Logo"></a>
       <div class="w-100 text-right">
          <button
@@ -42,13 +42,13 @@
          <div class="dropdown-menu dropdown-menu-right flags_dropdown_menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item hue_blue" href="lang/es">
             <img src="{{asset('images/us.png')}}" width="33px" height="23px">
-            English</a>
+            {{ __("English")}}</a>
             <a class="dropdown-item hue_blue" href="lang/am">
             <img src="{{asset('images/am.png')}}" width="33px" height="23px">
-            Armenian</a>
+            {{ __("Armenian")}}</a>
             <a class="dropdown-item hue_blue" href="lang/ru">
             <img src="{{asset('images/ru.png')}}" width="33px" height="23px">
-            Russian</a>
+            {{ __("Russian")}}</a>
          </div>
       </div>
 
@@ -74,8 +74,8 @@
                         {{ __("Services")}}
                      </a>
                      <div class="dropdown-menu dropdown-menu-right services_dropdown_menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item hue_blue" href="{{ url('courses') }}">Apply for Courses </a>
-                        <a class="dropdown-item hue_blue" href="{{ url('job') }}">Apply for a job</a>
+                        <a class="dropdown-item hue_blue" href="{{ url('courses') }}">{{ __("Apply for Courses")}} </a>
+                        <a class="dropdown-item hue_blue" href="{{ url('job') }}">{{ __("Apply for a Job")}}</a>
                      </div>
                   </li>
                </ul>
@@ -83,38 +83,38 @@
             <li
                id="menu-item-2"
                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2">
-               <a href="{{ url('#QA') }}" class="hue_blue">{{ __("Quality")}}</a>
+               <a href="{{ url('/#QA') }}" class="hue_blue">{{ __("About Us")}}</a>
             </li>
             <li
                id="menu-item-3"
                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3">
-               <a href="{{ url('/#we-do') }}" class="hue_blue">Courses</a>
+               <a href="{{ url('/#banner') }}" class="hue_blue">{{ __("Quality")}}</a>
             </li>
-            <li
+           <!--  <li
                id="menu-item-4"
                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4">
-               <a href="{{ url('/#co_workers') }}" class="hue_blue">Co-Workers</a>
-            </li>
+               <a href="{{ url('/#co_workers') }}" class="hue_blue">{{ __("Co-Workers")}}</a>
+            </li> -->
             <li
                id="menu-item-15"
                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15">
-               <a href="#skills" class="hue_blue">Customers</a>
+               <a href="{{ url('/#co_workers') }}" class="hue_blue">{{ __("Customers")}}</a>
             </li>
             <li
                id="menu-item-16"
                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16">
-               <a href="{{ url('/#testimonials') }}" class="hue_blue">Testimonials</a>
+               <a href="{{ url('/#testimonials') }}" class="hue_blue">{{ __("Testiomanials")}}</a>
             </li>
             <li
                id="menu-item-17"
                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17">
-               <a href="{{ url('/#team') }}" class="hue_blue">Team</a>
+               <a href="{{ url('/#team') }}" class="hue_blue">{{ __("Team")}}</a>
             </li>
             <li
                class="menu-btn menu-item menu-item-type-custom menu-item-object-custom
                menu-item-18"
                id="menu-item-18">
-               <a href="#contact" class="hue_blue">Requeast Demo</a>
+               <a href="{{ url('/#contact_us') }}" class="hue_blue">{{ __("Request Demo")}}</a>
             </li>
             <!-- Localizaton start-->
             <li
@@ -144,13 +144,13 @@
                      <div class="dropdown-menu dropdown-menu-right flags_dropdown_menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item hue_blue" href="lang/es">
                         <img src="{{asset('images/us.png')}}" width="33px" height="23px">
-                        English</a>
+                        {{ __("English")}}</a>
                         <a class="dropdown-item hue_blue" href="lang/am">
                         <img src="{{asset('images/am.png')}}" width="33px" height="23px">
-                        Armenian</a>
+                        {{ __("Armenian")}}</a>
                         <a class="dropdown-item hue_blue" href="lang/ru">
                         <img src="{{asset('images/ru.png')}}" width="33px" height="23px">
-                        Russian</a>
+                        {{ __("Russian")}}</a>
                      </div>
                   </li>
                </ul>

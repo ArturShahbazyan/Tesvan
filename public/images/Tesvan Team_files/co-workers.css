@@ -1,0 +1,153 @@
+#co_workers {
+    padding-bottom: 110px;
+}
+
+@media (max-width: 1199px) {
+	#co_workers {
+		padding-bottom: 100px;
+	}
+}
+
+@media (max-width: 991px) {
+	#co_workers {
+		padding-bottom: 90px;
+	}
+}
+
+@media (max-width: 767px) {
+	#co_workers {
+		padding-bottom: 70px;
+	}
+}
+
+
+@media (max-width: 1439px) {
+    .flag_svg {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .flag_svg {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    .flag_svg {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .flag_svg {
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .flag_row {
+        margin-bottom: 25px;
+    }
+}
+
+
+
+.co_workers_text_col > h2 {
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+@media (max-width: 767px) {
+    .co_workers_text_col > h2 {
+        font-size: 35px;
+
+    }
+}
+
+@media (max-width: 479px) {
+    .co_workers_text_col > h2 {
+        font-size: 25px;
+    }
+}
+
+.co_workers_text_col > p {
+    font-size: 18px;
+    margin-top: 35px;
+    width: 600px;
+    display: inline-block;
+}
+
+@media (max-width: 767px) {
+    .co_workers_text_col > p {
+        font-size: 17px;
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 479px){
+.co_workers_text_col > p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+}
+
+.flag_col {
+    padding-top: 60px;
+}
+
+@media (max-width: 767px) {
+    .flag_col {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 479px) {
+    .flag_col {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 479px) {
+    .flag_col {
+        margin-bottom: 25px;
+    }
+}
+
+
+.flag_txt {
+    font-size: 18px;
+    margin-top:20px;
+    display:block;
+}
+
+@media (max-width: 1439px) {
+    .flag_txt {
+        margin-top:10px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .flag_txt {
+        margin-top:0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .flag_txt {
+        margin-top:-5px;
+    }
+}
+
+
+@media (max-width: 479px) {
+    .flag_txt {
+        margin-top:-15px;
+    }
+}
+
+
+

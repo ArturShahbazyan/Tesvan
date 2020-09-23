@@ -63,7 +63,7 @@ $(document).ready(function () {
             if (windowTop > (offsetTop - 50) && windowTop < (offsetTop + outerHeight)) {
                 var elemId = $(elem).attr('id');
                 $("nav ul li a.current").removeClass('current');
-                $("nav ul li a[href='#" + elemId + "']").addClass('current');
+                $("nav ul li a[href='http://127.0.0.1:8000/#" + elemId + "']").addClass('current');
             }
         });
 

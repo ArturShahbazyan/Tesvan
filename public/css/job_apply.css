@@ -188,13 +188,14 @@
 .apply_custom_form_group > label {
     font-size: 16px;
     position: absolute;
-    left: 35px;
+    left: 36px;
     top: -13px;
     background-color: #fff;
     text-align: center;
     color: #A5A5A5;
     padding-left: 15px;
     padding-right: 15px;
+    height: 14px;
 }
 
 
@@ -410,6 +411,11 @@ input[type='file'] {
     word-break: break-word;
     line-height: 110%;
 
+}
+
+.cv_status {
+    position: absolute ;
+    margin-top:20px;
 }
 
 

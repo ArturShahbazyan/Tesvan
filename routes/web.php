@@ -24,8 +24,25 @@ Route::post('/', [
     'uses' => 'HomeController@ContactUsForm',
     'as' => 'home'
 ]);
-/* Route::get('/', 'HomeController@index')->name('home');
-Route::post('/', 'HomeController@ContactUsForm')->name('home'); */
-Route::get('/job', 'JobController@index')->name('job');
-Route::get('/courses', 'CoursesController@index')->name('courses');
+
+Route::get('/job', [
+    'uses' => 'JobController@index',
+    'as' => 'job'
+]);
+
+Route::post('/job', [
+    'uses' => 'JobController@JobApply',
+    'as' => 'job'
+]);
+
+Route::get('/courses', [
+    'uses' => 'CoursesController@index',
+    'as' => 'courses'
+]);
+
+Route::post('/courses', [
+    'uses' => 'CoursesController@CoursesRegister',
+    'as' => 'courses'
+]);
+
 Route::get('lang/{locale}', 'LocalizationController@index');

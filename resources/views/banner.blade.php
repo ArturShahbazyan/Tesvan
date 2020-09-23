@@ -6,7 +6,7 @@
             <h1 class="hue_blue">We are
                <br class="br">
                highly-productive
-               <span class="hue_yellow">Tesvan</span>
+               <span class="hue_yellow" >Tesvan</span>
                Team
             </h1>
             <p class="hue_blue">We are highly-productive quality assurance team that
@@ -14,7 +14,7 @@
                problems.
             </p>
             <div class="custom-btn">
-               <a href="index.html#services" class="hue_bg_b hue_blue">Learn More</a>
+               <a href="{{ url('/#hire_us') }}" class="hue_bg_b hue_blue">Learn More</a>
             </div>
          </div>
       </div>
@@ -2117,7 +2117,7 @@
          </div>
       </div>
    </div>
-   <div class="hire-us">
+   <div class="hire-us" id="hire_us">
       <div class="row">
          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <svg
@@ -3032,7 +3032,7 @@
          <div
             class="col-xl-6 col-lg-6 col-md-12 col-sm-12 hire_us_col d-flex align-items-center">
             <div class="hire_us_text">
-               <h4 class="hire_us_h4 mb-4 hue_blue">Why You are Hire Us ?</h4>
+               <h4 class="hire_us_h4 mb-4 hue_blue">Why You Are Hire Us ?</h4>
                <span class="mb-3 d-block hue_blue">
                Tesvan promotes job creation for smart, capable young people by preventing them
                from emigrating to the capital and abord.
