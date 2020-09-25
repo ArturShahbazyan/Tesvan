@@ -1,29 +1,29 @@
 @font-face {
-  font-family: 'OpenSans-Bold';
-  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
+    font-family: 'OpenSans-Bold';
+    src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'OpenSans-Regular';
-  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'OpenSans-Regular';
+    src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
- font-family: "Mardoto";
- src: url("../fonts/mardoto/fonts/woff/Mardoto-Regular.woff2") format("woff2"), url("../fonts/mardoto/fonts/woff/Mardoto-Regular.woff2") format("woff2");
- font-weight: normal;
- font-style: normal;
+    font-family: "Mardoto";
+    src: url("../fonts/mardoto/fonts/woff/Mardoto-Regular.woff2") format("woff2"), url("../fonts/mardoto/fonts/woff/Mardoto-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-font-family: "Mardoto";
-src: url("../fonts/mardoto/fonts/woff/Mardoto-Bold.woff2") format("woff2"), url("../fonts/mardoto/fonts/woff/Mardoto-Bold.woff2") format("woff2");
-font-weight: bold;
-font-style: normal;
+    font-family: "Mardoto";
+    src: url("../fonts/mardoto/fonts/woff/Mardoto-Bold.woff2") format("woff2"), url("../fonts/mardoto/fonts/woff/Mardoto-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
 }
 
 
@@ -32,13 +32,13 @@ font-style: normal;
 * {
     padding: 0;
     margin: 0;
-    
+
 }
 
 body {
-  font-family: "OpenSans-Regular", "Mardoto";
-  }
-  
+    font-family: "OpenSans-Regular", "Mardoto";
+}
+
 
 .hue_blue {
     color: #143E5A;
@@ -57,7 +57,7 @@ body {
 }
 
 .hue_bg_grey {
-    background:#EDEDED;
+    background: #EDEDED;
 }
 
 
@@ -67,55 +67,55 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    background:#143E5A;
+    background: #143E5A;
     z-index: 9999;
     font-size: 65px;
     text-align: center;
     padding-top: 150px;
     color: #fff;
 
-  }
+}
 
-  .loader_svg {
-    margin:auto;
-    background:transparent;
-    display:block;
-  }
+.loader_svg {
+    margin: auto;
+    background: transparent;
+    display: block;
+}
 
-  .loader_col{
-      position: relative;
-  }
-
-  .loader_col>svg{
+.loader_col {
     position: relative;
-    bottom:140px;
-  }
+}
 
-  
+.loader_col>svg {
+    position: relative;
+    bottom: 140px;
+}
+
+
 #return-to-top {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	background: #F4B41A;
-	width: 55px;
-	height: 55px;
-	display: block;
-	text-decoration: none;
-	-webkit-border-radius: 35px;
-	-moz-border-radius: 35px;
-	border-radius: 35px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #F4B41A;
+    width: 55px;
+    height: 55px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
     display: none;
     z-index: 1000;
 }
 
 #return-to-top .icon-chevron-up {
-	position: relative;
-	left: 7px;
-	top: 5px;
+    position: relative;
+    left: 7px;
+    top: 5px;
 }
 
 #return-to-top .icon-chevron-up img {
-	width: 40px;
+    width: 40px;
 }
 
 #return-to-top:hover {
@@ -125,10 +125,11 @@ body {
 
 
 /* >>>>>>>>> radio >>>>>>>> */
-label > input[type="radio"] {
+label>input[type="radio"] {
     display: none;
-  }
-  label > input[type="radio"] + *::before {
+}
+
+label>input[type="radio"]+*::before {
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -138,85 +139,87 @@ label > input[type="radio"] {
     border-radius: 50%;
     border-style: solid;
     border: 1px solid #A5A5A5;
-   
-  }
-  
-  /* label > input[type="radio"]:checked + * {
+
+}
+
+/* label > input[type="radio"]:checked + * {
     color: red;
   } */
-  
-  label > input[type="radio"]:checked + *::before {
-    background:#143E5A;
+
+label>input[type="radio"]:checked+*::before {
+    background: #143E5A;
     border-color: #143E5A;
-  }
-  
-  .radio_txt {
-      color: #A5A5A5;
-      font-size:17px;
-  }
-  
-  .single_radio_group>label:not(:last-child) {
-    margin-right:15px;
-  }
-  
-  .en_level_txt {
-     color: #A5A5A5;
-     font-size: 16px
-  }
-  
-  
-  .single_radio_group:not(:last-child) {
-      margin-right:20px;
-  }
-  
-  /* <<<<<<<<<<<<< radio <<<<<<<<<<<<< */
+}
 
-  button:focus {
+.radio_txt {
+    color: #A5A5A5;
+    font-size: 17px;
+}
+
+.single_radio_group>label:not(:last-child) {
+    margin-right: 15px;
+}
+
+.en_level_txt {
+    color: #A5A5A5;
+    font-size: 16px
+}
+
+
+.single_radio_group:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* <<<<<<<<<<<<< radio <<<<<<<<<<<<< */
+
+button:focus {
     outline: none;
-  }
+}
 
- 
-  input[type] {
-     font-size:18px;
-     height: 61px;
-     color:#143E59;
-  }
 
-  input[type]:focus {
-    font-size:18px;
+input[type] {
+    font-size: 18px;
     height: 61px;
-    color:#143E59;
- }
-
- textarea {
-  font-size:18px !important;
-  color:#143E59 !important;
-  resize: none;
+    color: #143E59;
 }
 
-textarea:focus {
-  font-size:18px !important;
-  color:#143E59 !important;
-  resize: none;
-}
- 
-@media (max-width: 767px) {
-  input[type] {
-    font-size:17px;
- }
-
- input[type]:focus {
-  font-size:17px;
+input[type]:focus {
+    font-size: 18px;
+    height: 61px;
+    color: #143E59;
 }
 
 textarea {
-  font-size:17px;
+    font-size: 18px !important;
+    color: #143E59 !important;
+    resize: none;
 }
 
 textarea:focus {
-  font-size:17px;
+    font-size: 18px !important;
+    color: #143E59 !important;
+    resize: none;
 }
+
+@media (max-width: 767px) {
+    input[type] {
+        font-size: 17px;
+    }
+
+    input[type]:focus {
+        font-size: 17px;
+    }
+
+    textarea {
+        font-size: 17px;
+    }
+
+    textarea:focus {
+        font-size: 17px;
+    }
 }
- 
 
 
+.invalid-feedback {
+    font-size: 70%;
+}

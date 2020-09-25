@@ -27,8 +27,8 @@ class JobController extends Controller
             'course' => $request->get('course'),
             'level' => $request->get('level'),
         ), function($message) use ($request){
-            $message->from($request->email);
-            $message->to('ArturSh0101@gmail.com', 'Admin')->subject("Tesvan");
+            $message->from("davidg.tesvan@gmail.com");
+            $message->to('jobs@tesvan.com', 'Admin')->subject("Tesvan");
             
            
              $message->attach($request->file('cv')->getRealPath(), [

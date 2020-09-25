@@ -2,9 +2,9 @@
 
 @section('styles')
 
-        <link rel="stylesheet" type="text/css" href="/css/courses_qa_courses.css">
-        <link rel="stylesheet" type="text/css" href="/css/courses_reg.css">
-       
+<link rel="stylesheet" type="text/css" href="/css/courses_qa_courses.css">
+<link rel="stylesheet" type="text/css" href="/css/courses_reg.css">
+
 @endsection
 
 @section('content')
@@ -20,6 +20,7 @@
 
 @section('scripts')
 
-<script src="js/courses/courses_reg.js"></script>    
-       
+<script src="js/courses/courses_reg.js"></script>
+
+
 @endsection

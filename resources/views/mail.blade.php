@@ -11,7 +11,7 @@
 <br>
 <code><b>Phone:</b> {{ $phone }}</code>
 <br>
-<code><b>Message:</b>  {{ $msg }}</code>
+<code><b>Message:</b> {{ $msg }}</code>
 <br>
 
-<h4>Thanks</4>
+<h4>Thanks</h4>

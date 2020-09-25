@@ -13,7 +13,6 @@ class HomeController extends Controller
         return view('index');
     }
 
-
     public function ContactUsForm(Request $request) {
 
 
@@ -24,14 +23,8 @@ class HomeController extends Controller
             'email' => $request->get('email'),
             'msg' => $request->get('message'),
         ), function($message) use ($request){
-            $message->from($request->email);
-            $message->to('ArturSh0101@gmail.com', 'Admin')->subject("Tesvan");
-            
-           
- /*      $message->attach($request->file('file')->getRealPath(), [
-        'as' => $request->file('file')->getClientOriginalName(), 
-        'mime' => $request->file('file')->getMimeType()
-     ]); */
+            $message->from('davidg.tesvan@gmail.com');
+            $message->to('info@tesvan.com', 'Admin')->subject("Tesvan");
 
         });
 

@@ -24,7 +24,7 @@
             <div class="member-single autoplay text-center">
                 <div class="team_member_row">
                     <img src="images/team_images/Ara.svg" alt="Ara" class="img-fluid m-auto">
-                    <h4 class="hue_black pt-3">Ara</h4>
+                    <h4 class="hue_black pt-3">Ara Galstyan</h4>
                     <p class="hue_black pb-3">QA Engineer</p>
                     <div class="aqua_layer"></div>
                 </div>
@@ -57,7 +57,7 @@
             <div class="member-single autoplay text-center">
                 <div class="team_member_row">
                     <img src="images/team_images/Vazgen.svg" alt="Vazgen" class="img-fluid m-auto">
-                    <h4 class="hue_black pt-3">Vazgen</h4>
+                    <h4 class="hue_black pt-3">Vazgen Arakelyan</h4>
                     <p class="hue_black pb-3">QA Engineer</p>
                     <div class="aqua_layer"></div>
                 </div>
@@ -89,8 +89,8 @@
             <div class="member-single autoplay text-center">
                 <div class="team_member_row">
                     <img src="images/team_images/Satenik.svg" alt="Satenik" class="img-fluid m-auto">
-                    <h4 class="hue_black pt-3">Satenik</h4>
-                    <p class="hue_black pb-3">Junior QA Engineer</p>
+                    <h4 class="hue_black pt-3">Satenik Miraqyan</h4>
+                    <p class="hue_black pb-3">Account Manager</p>
                     <div class="aqua_layer"></div>
                 </div>
             </div>

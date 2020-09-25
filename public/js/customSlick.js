@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 
 
@@ -10,7 +9,8 @@ $(document).ready(function () {
         slidesToScroll: 1,
         arrows: false,
         dots: true,
-        autoplay: true, /* this is the new line */
+        autoplay: true,
+        /* this is the new line */
         autoplaySpeed: 2000,
         infinite: true,
         accessibility: false,
@@ -52,8 +52,7 @@ $(document).ready(function () {
         arrows: true,
         dots: true,
         accessibility: false,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 1199,
                 settings: {
                     centerMode: false,
@@ -78,4 +77,3 @@ $(document).ready(function () {
     });
 
 });
-
