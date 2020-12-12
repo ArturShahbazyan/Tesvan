@@ -21,6 +21,7 @@
 @section('scripts')
 
 <script src="js/courses/courses_reg.js"></script>
+<script src="js/courses/courses_validation.js"></script>
 
 
 @endsection

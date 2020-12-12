@@ -10,9 +10,7 @@ $(document).ready(function () {
         arrows: false,
         dots: true,
         autoplay: true,
-        /* this is the new line */
         autoplaySpeed: 2000,
-        infinite: true,
         accessibility: false,
         responsive: [
 

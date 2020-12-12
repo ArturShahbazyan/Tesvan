@@ -23,7 +23,7 @@
 <body>
 
 
-    <div id="cover">
+    {{-- <div id="cover">
         <div class="pb-3">
             <span> Tesvan </span>
         </div>
@@ -38,7 +38,7 @@
                 </svg>
             </div>
         </div>
-    </div>
+    </div> --}}
 
 
     <header class="header">

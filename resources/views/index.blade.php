@@ -2,8 +2,8 @@
 
 @section('styles')
 
-<link rel="stylesheet" type="text/css" href="/css/slick.css">
 <link rel="stylesheet" type="text/css" href="/css/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="/css/slick.css">
 <link rel="stylesheet" type="text/css" href="/css/qa.css">
 <link rel="stylesheet" type="text/css" href="/css/co-workers.css">
 <link rel="stylesheet" type="text/css" href="/css/customers.css">

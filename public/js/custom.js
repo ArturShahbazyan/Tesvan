@@ -1,8 +1,13 @@
-
 $(window).on('load', function () {
     $("#cover").fadeOut(1000);
 
 });
+
+
+/* document.addEventListener("DOMContentLoaded", function (event) {
+    $("#cover").fadeOut(1000);
+}); */
+
 
 
 $(document).ready(function () {
@@ -63,7 +68,7 @@ $(document).ready(function () {
             if (windowTop > (offsetTop - 50) && windowTop < (offsetTop + outerHeight)) {
                 var elemId = $(elem).attr('id');
                 $("nav ul li a.current").removeClass('current');
-                $("nav ul li a[href='http://127.0.0.1:8000/#" + elemId + "']").addClass('current');
+                $("nav ul li a[href='https://www.tesvan.com/#" + elemId + "']").addClass('current');
             }
         });
 
@@ -114,4 +119,3 @@ $(document).ready(function () {
 
 
 });
-
