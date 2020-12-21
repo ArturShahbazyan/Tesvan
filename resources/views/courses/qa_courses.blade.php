@@ -1,10 +1,9 @@
 <section id="qa_courses">
     <div class="container">
         <div class="text-center qa_courses_hire_text_col">
-            <h2 class="hue_blue">QA Courses</h2>
+            <h2 class="hue_blue">{{__("QA Courses ")}}</h2>
             <p class="hue_black">
-                We give you the opportunity to become a leading professional and to join our
-                team
+                {{__("We give you the opportunity to become a leading professional and to join our team")}}
             </p>
         </div>
 
@@ -12,19 +11,14 @@
             <div class="col-xl-6 col-lg-6 col-md-12 d-flex align-items-center">
                 <div class="qa_courses_txt_col">
                     <p class="hue_black">
-                        Within the framework of the program, free "QA Engineering" courses for 15
-                        participants were conducted twice in Sevan. As a result our students gained
-                        in-depth theoretical and practical knowledge.
+                        {{__('Within the framework of the program, free "QA Engineering" courses for 15 participants were conducted twice in Sevan. As a result our students gained in-depth theoretical and practical knowledge.')}}
                     </p>
                     <p class="hue_black">
-                        the courses provided an opportunity to prepare for interviews, as well as to
-                        compile CVs in accordance with the standards․
+                        {{__("The courses provided an opportunity to prepare for interviews, as well as to compile CVs in accordance with the standards․")}}
 
                     </p>
                     <p class="hue_black">
-                        Now the knowledge of the students who participated in our courses serves the
-                        development of our city. Our team is replenished with new members, we continue
-                        to develop our skills and to improve the quality of work.
+                        {{__("Now the knowledge of the students who participated in our courses serves the development of our city. Our team is replenished with new members, we continue to develop our skills and to improve the quality of work.")}}
                     </p>
                 </div>
             </div>
@@ -32,19 +26,16 @@
             <div class="col-xl-6 col-lg-6 col-md-12">
                 <div class="qa_txt_blocks text-center">
                     <div class="qa_txt_single_blok float-xs-right float-lg-right">
-                        <h5 class="hue_blue">Course 1</h5>
+                        <h5 class="hue_blue">{{__("Course 1")}}</h5>
                         <p class="hue_black">
-                            At the end of the first course, 6 of our students were given the opportunity to
-                            work in leading IT companies.
+                            {{__("At the end of the first course, 6 of our students were given the opportunity to work in leading IT companies.")}}
                         </p>
                     </div>
                     <div class="clearfix"></div>
                     <div class="qa_txt_single_blok">
-                        <h5 class="hue_blue">Course 2</h5>
+                        <h5 class="hue_blue">{{__("Course 2")}}</h5>
                         <p class="hue_black">
-                            In parallel with the second training, a project was developed, as a result of
-                            which the first IT company was opened in Xi'an, which laid the foundation for
-                            the development of the technological life of the city.
+                            {{__("In parallel with the second training, a project was developed, as a result of which the first IT company was opened in Xi'an, which laid the foundation for the development of the technological life of the city.")}}
                         </p>
                     </div>
                 </div>
@@ -72,7 +63,7 @@
                                     <path d="M26.2344 35H1.36719V28.9062L9.73438 20.4453C12.125 17.9453 13.6875 16.2422 14.4219 15.3359C15.1562 14.4141 15.6641 13.625 15.9453 12.9688C16.2422 12.3125 16.3906 11.625 16.3906 10.9062C16.3906 10.0156 16.1016 9.3125 15.5234 8.79688C14.9453 8.28125 14.1328 8.02344 13.0859 8.02344C12.0078 8.02344 10.9141 8.33594 9.80469 8.96094C8.71094 9.57031 7.46875 10.4766 6.07812 11.6797L0.992188 5.72656C2.75781 4.14844 4.24219 3.02344 5.44531 2.35156C6.64844 1.66406 7.95312 1.14062 9.35938 0.78125C10.7812 0.421875 12.375 0.242188 14.1406 0.242188C16.3594 0.242188 18.3359 0.632812 20.0703 1.41406C21.8203 2.19531 23.1719 3.3125 24.125 4.76562C25.0938 6.20312 25.5781 7.82031 25.5781 9.61719C25.5781 10.9609 25.4062 12.2031 25.0625 13.3438C24.7344 14.4844 24.2188 15.6094 23.5156 16.7188C22.8125 17.8125 21.875 18.9688 20.7031 20.1875C19.5469 21.4062 17.0703 23.7188 13.2734 27.125V27.3594H26.2344V35Z" fill="#F4B41A" />
                                 </svg>
                             </div>
-                            <p class="hue_black">Free Courses</p>
+                            <p class="hue_black">{{__("Free Courses ")}}</p>
                         </div>
 
                         <div class="qa_courses_icon_col left_qa_courses_icon_col found_job_col">
@@ -92,9 +83,8 @@
                                     <path d="M0.578125 20.5156C0.578125 15.7344 1.25781 11.8672 2.61719 8.91406C3.99219 5.94531 6.00781 3.75781 8.66406 2.35156C11.3359 0.945312 14.625 0.242188 18.5312 0.242188C19.9219 0.242188 21.5469 0.375 23.4062 0.640625V7.88281C21.8438 7.58594 20.1484 7.4375 18.3203 7.4375C15.2266 7.4375 12.9219 8.11719 11.4062 9.47656C9.89062 10.8359 9.0625 13.0547 8.92188 16.1328H9.20312C10.6094 13.4766 12.8672 12.1484 15.9766 12.1484C19.0234 12.1484 21.3828 13.1328 23.0547 15.1016C24.7422 17.0547 25.5859 19.7812 25.5859 23.2812C25.5859 27.0469 24.5234 30.0234 22.3984 32.2109C20.2734 34.3828 17.3047 35.4688 13.4922 35.4688C9.44531 35.4688 6.28125 34.1562 4 31.5312C1.71875 28.9062 0.578125 25.2344 0.578125 20.5156ZM13.2812 28.1328C14.2656 28.1328 15.0625 27.7656 15.6719 27.0312C16.2969 26.2812 16.6094 25.0938 16.6094 23.4688C16.6094 20.6875 15.5312 19.2969 13.375 19.2969C12.3125 19.2969 11.4453 19.6562 10.7734 20.375C10.1172 21.0938 9.78906 21.9688 9.78906 23C9.78906 24.5 10.1094 25.7344 10.75 26.7031C11.3906 27.6562 12.2344 28.1328 13.2812 28.1328Z" fill="#F4B41A" />
                                 </svg>
                             </div>
-                            <p class="hue_black">Found job</p>
+                            <p class="hue_black">{{__("Found job")}}</p>
                         </div>
-
                     </div>
 
                     <div class="col-xl-7 col-lg-7 col-md-6 col-sm-6">
@@ -111,7 +101,7 @@
                                     <path d="M24.0234 8.16406C24.0234 10.2891 23.375 12.1172 22.0781 13.6484C20.7812 15.1641 18.9062 16.2656 16.4531 16.9531V17.0938C22.1719 17.8125 25.0312 20.5156 25.0312 25.2031C25.0312 28.3906 23.7656 30.8984 21.2344 32.7266C18.7188 34.5547 15.2188 35.4688 10.7344 35.4688C8.89062 35.4688 7.17969 35.3359 5.60156 35.0703C4.03906 34.8047 2.34375 34.3203 0.515625 33.6172V25.9297C2.01562 26.6953 3.53906 27.2656 5.08594 27.6406C6.64844 28 8.08594 28.1797 9.39844 28.1797C11.4297 28.1797 12.9062 27.8984 13.8281 27.3359C14.7656 26.7578 15.2344 25.8594 15.2344 24.6406C15.2344 23.7031 14.9922 22.9844 14.5078 22.4844C14.0234 21.9688 13.2422 21.5859 12.1641 21.3359C11.0859 21.0703 9.67969 20.9375 7.94531 20.9375H5.83594V13.9766H7.99219C12.6953 13.9766 15.0469 12.7734 15.0469 10.3672C15.0469 9.46094 14.6953 8.78906 13.9922 8.35156C13.3047 7.91406 12.375 7.69531 11.2031 7.69531C9.01562 7.69531 6.75 8.42969 4.40625 9.89844L0.5625 3.71094C2.375 2.46094 4.22656 1.57031 6.11719 1.03906C8.02344 0.507812 10.2031 0.242188 12.6562 0.242188C16.2031 0.242188 18.9844 0.945312 21 2.35156C23.0156 3.75781 24.0234 5.69531 24.0234 8.16406ZM53.4375 17.9141C53.4375 23.9766 52.4219 28.4219 50.3906 31.25C48.3594 34.0625 45.25 35.4688 41.0625 35.4688C36.9688 35.4688 33.8828 34 31.8047 31.0625C29.7266 28.1094 28.6875 23.7266 28.6875 17.9141C28.6875 11.8203 29.7031 7.35156 31.7344 4.50781C33.7656 1.66406 36.875 0.242188 41.0625 0.242188C45.1406 0.242188 48.2188 1.72656 50.2969 4.69531C52.3906 7.64844 53.4375 12.0547 53.4375 17.9141ZM37.8984 17.9141C37.8984 21.7891 38.1406 24.4531 38.625 25.9062C39.1094 27.3594 39.9219 28.0859 41.0625 28.0859C42.2188 28.0859 43.0312 27.3359 43.5 25.8359C43.9844 24.3359 44.2266 21.6953 44.2266 17.9141C44.2266 14.1172 43.9844 11.4609 43.5 9.94531C43.0156 8.41406 42.2031 7.64844 41.0625 7.64844C39.9219 7.64844 39.1094 8.38281 38.625 9.85156C38.1406 11.3203 37.8984 14.0078 37.8984 17.9141Z" fill="#F4B41A" />
                                 </svg>
                             </div>
-                            <p class="hue_black">Student</p>
+                            <p class="hue_black">{{__("Student")}}</p>
                         </div>
 
                         <div class="qa_courses_icon_col joined_our_team_col text-center">
@@ -136,7 +126,7 @@
                                     <path d="M3.83594 35L15.6016 8.44531H0.765625V0.78125H25.4922V6.24219L13.4219 35H3.83594Z" fill="#F4B41A" />
                                 </svg>
                             </div>
-                            <p class="hue_black">Joined our team</p>
+                            <p class="hue_black">{{__("Joined our team")}}</p>
                         </div>
                     </div>
 
@@ -146,48 +136,45 @@
             <div class="col-xl-6 col-lg-6 col-md-12">
                 <div class="qa_courses_become_qa_col">
                     <h5 class="hue_blue font-weight-bold">
-                        Become a Leading QA Specialist
+                        {{__("Become a Leading QA Specialist")}}
                     </h5>
                     <p class="hue_black">
-                        If you want to become a competitive specialist in the field of Quality
-                        Assurance, gain not only theoretical, but also practical and applied knowledge,
-                        join our creative team, then this course is just for you.
+                        {{__("If you want to become a competitive specialist in the field of Quality Assurance, gain not only theoretical, but also practical and applied knowledge, join our creative team, then this course is just for you.")}}
                     </p>
                     <h6 class="hue_blue font-weight-bold">
-                        This course is for you if
+                        {{__("This course is for you if")}}
                     </h6>
                     <div class="abilities_col">
                         <div class="ability_col">
                             <img alt="Circle Yellow" src="images/circle_yellow.svg">
                             <span class="hue_black">
-                                you are different from analytical thinking
+                                {{__("you are different from analytical thinking")}}
                             </span>
                         </div>
                         <div class="ability_col">
                             <img alt="Circle Yellow" src="images/circle_yellow.svg">
                             <span class="hue_black">
-                                you have basic computer skills
+                                {{__("you have basic computer skills")}}
                             </span>
                         </div>
                         <div class="ability_col">
                             <img alt="Circle Yellow" src="images/circle_yellow.svg">
                             <span class="hue_black">
-                                you have a great desire to learn
+                                {{__("you have a great desire to learn")}}
                             </span>
                         </div>
                         <div class="ability_col">
                             <img alt="Circle Yellow" src="images/circle_yellow.svg">
                             <span class="hue_black">
-                                you have at least a basic level of English
+                                {{__("you have at least a basic level of English")}}
                             </span>
                         </div>
                     </div>
                     <div class="underline_txt">
-                        <span class="hue_black">The course is conducted by leading experts in the field
-                            in a warm and pleasant environment.</span>
+                        <span class="hue_black">{{__("The course is conducted by leading experts in the field in a warm and pleasant environment.")}}</span>
                     </div>
                     <div class="qa_courses_btn">
-                        <a href="" class="hue_blue">Learn More</a>
+                        <a href="" class="hue_blue">{{__("Learn More")}}</a>
                     </div>
                 </div>
             </div>

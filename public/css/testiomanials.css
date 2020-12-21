@@ -14,12 +14,6 @@
     }
 }
 
-@media (max-width: 767px) {
-    #testimonials {
-        padding-bottom: 60px;
-    }
-}
-
 .testiomanials_heder_txt_col>h2 {
     font-weight: 600;
     font-size: 40px;
@@ -44,7 +38,7 @@
 
 .testiomanials_heder_txt_col>p {
     font-size: 18px;
-    width: 590px;
+    max-width: 590px;
     margin: 45px auto;
 }
 

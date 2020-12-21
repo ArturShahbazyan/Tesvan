@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'title' =>  'Lokalizacaiyai orinak'
+    'title' =>  'Localization Exmaple'
 ];
 

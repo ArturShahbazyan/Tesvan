@@ -1,10 +1,9 @@
 <section id="job_apply">
     <div class="container">
         <div class="text-center job_apply_text_col">
-            <h2 class="hue_blue">Apply for a Job</h2>
+            <h2 class="hue_blue">{{__("Apply for a Job")}}</h2>
             <p class="hue_black">
-                Our team is excited by the opportunity to set new standard of quality for your
-                software on all levels of complexity
+                {{__("Our team is excited by the opportunity to set new standard of quality for your software on all levels of complexity ")}}
             </p>
         </div>
         <div class="apply_form_row">
@@ -12,15 +11,12 @@
                 <div class="col-xl-6 col-lg-6 col-md-12 clearfix">
                     <div class="row float-xl-right  float-lg-right">
                         <div class="apply_form_contacts_col">
-                            <h5 class="hue_blue">Who can apply for a job?</h5>
+                            <h5 class="hue_blue">{{__("Who can apply for a job?")}}</h5>
                             <p class="hue_black beginner_txt">
-                                If you are a beginner, you have basic knowledge in any field of IT, you have
-                                participated in courses, but you can not find a job, you do not have work
-                                experience, then this offer is just for you.
+                                {{__("If you are a beginner, you have basic knowledge in any field of IT, you have participated in courses, but you can not find a job, you do not have work experience, then this offer is just for you.")}}
                             </p>
                             <p class="hue_blue">
-                                All you should do is fill out the online questionnaire and our specialist will
-                                contact you within 2 days.
+                                {{__("All you should do is fill out the online questionnaire and our specialist will contact you within 2 days.")}}
                             </p>
                             <div class="pointer_svg d-flex justify-content-end">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -39,119 +35,112 @@
                 <div class="col-xl-6 col-lg-6 col-md-12">
                     <div class="row">
                         <div class="apply_form_col" id="job-apply">
-                            <h5 class="hue_blue text-center">Join our talented team</h5>
+                            <h5 class="hue_blue text-center">{{__("Join our talented team")}}</h5>
                             <div class="apply_tesvan_form">
-                                <p class="hue_blue">All fields are required</p>
+                                <p class="hue_blue">{{__("All fields are required")}}</p>
                                 <form method="post" action="{{ url('/job#job_apply') }}" enctype="multipart/form-data" autocomplete="off" name="job_apply" novalidate="novalidate">
                                     @csrf
-                                    <!-- >>>>> Success message >>>>> -->
-                                    {{-- @if(Session::has('success'))
-                                    <div class="alert alert-success text-center">
-                                        {{Session::get('success')}}
-                            </div>
-                            @endif --}}
-                            <!-- <<<<< Success message <<<<< -->
-                            <div id="apply" class="apply_wizard">
-                                <div class="pt-2"></div>
-                                <div class="form-group apply_custom_form_group">
-                                    <label for="name">Name</label>
-                                    <input name="name" type="text" class="name form-control apply_custom_form_input" maxlength="50" id="name" onblur="nameValidate()">
-                                    <div id="nameStatus" class="invalid-feedback">Name field is required</div>
-                                </div>
-                                <div class="form-group apply_custom_form_group">
-                                    <label for="surname">Surname</label>
-                                    <input name="surname" type="text" class="surname form-control apply_custom_form_input" maxlength="50" id="surname" onblur="surnameValidate()">
-                                    <div id="surnameStatus" class="invalid-feedback">Surname field is required</div>
-                                </div>
-                                <div class="form-group apply_custom_form_group">
-                                    <label for="email">Email</label>
-                                    <input name="email" type="email" class="form-control email apply_custom_form_input" maxlength="50" id="email" onblur="emailValidate()">
-                                    <div id="emailStatus" class="invalid-feedback">Email field is required</div>
-                                </div>
-                                <div class="form-group apply_custom_form_group">
-                                    <label for="phone">Phone</label>
-                                    <input name="phone" type="tel" class="phone form-control apply_custom_form_input" maxlength="50" id="phone" onblur="phoneValidate()">
-                                    <div id="phoneStatus" class="invalid-feedback">Phone field is required</div>
-                                </div>
-                                <div class="form-group apply_custom_form_group">
-                                    <label for="city">City</label>
-                                    <input name="city" type="text" class="city form-control apply_custom_form_input" maxlength="50" id="city" onblur="cityValidate()">
-                                    <div id="cityStatus" class="invalid-feedback">Phone field is required</div>
-                                </div>
-                                <button data-next-id="form_apply" validationApplyDiv="apply" type="button" class="job_btn job_next_btn apply_continue button button-action hue_blue">Next</button>
-                            </div>
-                            <div id="form_apply" class="apply_wizard">
-                                <div class="pt-2"></div>
-                                <div class="form-group apply_custom_form_group">
-                                    <label for="education">Education</label>
-                                    <input name="education" type="text" class="education form-control apply_custom_form_input" maxlength="50" id="education" onblur="educationValidate()">
-                                    <div id="educationStatus" class="invalid-feedback">Education field is required</div>
-                                </div>
-                                <div class="form-group apply_custom_form_group">
-                                    <label for="company">Company</label>
-                                    <input name="company" type="text" class="company form-control apply_custom_form_input" maxlength="50" id="company" onblur="companyValidate()">
-                                    <div id="companyStatus" class="invalid-feedback">Company field is required</div>
-                                </div>
-                                <div class="form-group apply_custom_form_group">
-                                    <label for="course">Course</label>
-                                    <input name="course" type="text" class="course form-control apply_custom_form_input" maxlength="50" id="course" onblur="courseValidate()">
-                                    <div id="courseStatus" class="invalid-feedback">Course field is required</div>
-                                </div>
-                                <div class="form-group apply_custom_radio_group">
-                                    <h6 class="en_level_txt">English level</h6>
-                                    <div class="radio_group d-flex justify-content-between">
-                                        <div class="single_radio_group">
-                                            <label class="radio_label">
-                                                <input type="radio" name="level" value="A1" checked="checked" />
-                                                <span class="radio_txt">A1</span>
-                                            </label>
-                                            <label class="radio_label">
-                                                <input type="radio" name="level" value="A2" />
-                                                <span class="radio_txt">A2</span>
-                                            </label>
+                                    <div id="apply" class="apply_wizard">
+                                        <div class="pt-2"></div>
+                                        <div class="form-group apply_custom_form_group">
+                                            <label for="name">{{__("Name")}}</label>
+                                            <input name="name" type="text" class="name form-control apply_custom_form_input" maxlength="50" id="name" onblur="nameValidate()">
+                                            <div id="nameStatus" class="invalid-feedback">{{__("Name field is required")}}</div>
                                         </div>
-                                        <div class="single_radio_group">
-                                            <label class="radio_label">
-                                                <input type="radio" name="level" value="B1" />
-                                                <span class="radio_txt">B1</span>
-                                            </label>
-                                            <label radio_label="radio_label">
-                                                <input type="radio" name="level" value="B2" />
-                                                <span class="radio_txt">B2</span>
-                                            </label>
+                                        <div class="form-group apply_custom_form_group">
+                                            <label for="surname">{{__("Surname")}}</label>
+                                            <input name="surname" type="text" class="surname form-control apply_custom_form_input" maxlength="50" id="surname" onblur="surnameValidate()">
+                                            <div id="surnameStatus" class="invalid-feedback">{{__("Surname field is required")}}</div>
                                         </div>
-                                        <div class="single_radio_group">
-                                            <label class="radio_label">
-                                                <input type="radio" name="level" value="C1" />
-                                                <span class="radio_txt">C1</span>
-                                            </label>
-                                            <label radio_label="radio_label">
-                                                <input type="radio" name="level" value="C2" />
-                                                <span class="radio_txt">C2</span>
-                                            </label>
+                                        <div class="form-group apply_custom_form_group">
+                                            <label for="email">{{__("Email")}}</label>
+                                            <input name="email" type="email" class="form-control email apply_custom_form_input" maxlength="50" id="email" onblur="emailValidate()">
+                                            <div id="emailStatus" class="invalid-feedback">{{__("Email field is required")}}</div>
+                                        </div>
+                                        <div class="form-group apply_custom_form_group">
+                                            <label for="phone">{{__("Phone")}}</label>
+                                            <input name="phone" type="tel" class="phone form-control apply_custom_form_input" maxlength="50" id="phone" onblur="phoneValidate()">
+                                            <div id="phoneStatus" class="invalid-feedback">{{__("Phone field is required")}}</div>
+                                        </div>
+                                        <div class="form-group apply_custom_form_group">
+                                            <label for="city">{{__("City")}}</label>
+                                            <input name="city" type="text" class="city form-control apply_custom_form_input" maxlength="50" id="city" onblur="cityValidate()">
+                                            <div id="cityStatus" class="invalid-feedback">{{("City field is required")}}</div>
+                                        </div>
+                                        <button data-next-id="form_apply" validationApplyDiv="apply" type="button" class="job_btn job_next_btn apply_continue button button-action hue_blue">{{__("Next")}}</button>
+                                    </div>
+                                    <div id="form_apply" class="apply_wizard">
+                                        <div class="pt-2"></div>
+                                        <div class="form-group apply_custom_form_group">
+                                            <label for="education">{{__("Education")}}</label>
+                                            <input name="education" type="text" class="education form-control apply_custom_form_input" maxlength="50" id="education" onblur="educationValidate()">
+                                            <div id="educationStatus" class="invalid-feedback">{{__("Education field is required")}}</div>
+                                        </div>
+                                        <div class="form-group apply_custom_form_group">
+                                            <label for="company">{{__("Company")}}</label>
+                                            <input name="company" type="text" class="company form-control apply_custom_form_input" maxlength="50" id="company" onblur="companyValidate()">
+                                            <div id="companyStatus" class="invalid-feedback">{{__("Company field is required")}}</div>
+                                        </div>
+                                        <div class="form-group apply_custom_form_group">
+                                            <label for="course">{{__("Course")}}</label>
+                                            <input name="course" type="text" class="course form-control apply_custom_form_input" maxlength="50" id="course" onblur="courseValidate()">
+                                            <div id="courseStatus" class="invalid-feedback">{{__("Course field is required")}}</div>
+                                        </div>
+                                        <div class="form-group apply_custom_radio_group">
+                                            <h6 class="en_level_txt">{{__("English level")}}</h6>
+                                            <div class="radio_group d-flex justify-content-between">
+                                                <div class="single_radio_group">
+                                                    <label class="radio_label">
+                                                        <input type="radio" name="level" value="A1" checked="checked" />
+                                                        <span class="radio_txt">A1</span>
+                                                    </label>
+                                                    <label class="radio_label">
+                                                        <input type="radio" name="level" value="A2" />
+                                                        <span class="radio_txt">A2</span>
+                                                    </label>
+                                                </div>
+                                                <div class="single_radio_group">
+                                                    <label class="radio_label">
+                                                        <input type="radio" name="level" value="B1" />
+                                                        <span class="radio_txt">B1</span>
+                                                    </label>
+                                                    <label radio_label="radio_label">
+                                                        <input type="radio" name="level" value="B2" />
+                                                        <span class="radio_txt">B2</span>
+                                                    </label>
+                                                </div>
+                                                <div class="single_radio_group">
+                                                    <label class="radio_label">
+                                                        <input type="radio" name="level" value="C1" />
+                                                        <span class="radio_txt">C1</span>
+                                                    </label>
+                                                    <label radio_label="radio_label">
+                                                        <input type="radio" name="level" value="C2" />
+                                                        <span class="radio_txt">C2</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="form-group apply_custom_form_group attach_cv">
+                                                <label for="cv">{{__("Attach CV")}}</label>
+                                                <input name="cv" type="file" class="cv form-control " id="cv" onblur="cvValidate()">
+                                                <div class="choosen"></div>
+                                                <div id="cvStatus" class="invalid-feedback cv_status">{{__("CV field is required")}}</div>
+                                            </div>
+                                        </div>
+                                        <div class="btn_group d-flex justify-content-between pt-4">
+                                            <button type="button" class="job_btn job_back_btn">{{__("Back")}}</button>
+                                            <button type="submit" class="job_btn job_apply_btn">{{__("Apply")}}</button>
                                         </div>
                                     </div>
-                                </div>
-                                <div>
-                                    <div class="form-group apply_custom_form_group attach_cv">
-                                        <label for="cv">Attach CV</label>
-                                        <input name="cv" type="file" class="cv form-control " id="cv" onblur="cvValidate()">
-                                        <div class="choosen"></div>
-                                        <div id="cvStatus" class="invalid-feedback cv_status">CV field is required</div>
-                                    </div>
-                                </div>
-                                <div class="btn_group d-flex justify-content-between pt-4">
-                                    <button type="button" class="job_btn job_back_btn">Back</button>
-                                    <button type="submit" class="job_btn job_apply_btn">Apply</button>
-                                </div>
+                                </form>
                             </div>
-                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </section>
 
@@ -169,12 +158,12 @@
                     </svg>
                 </div>
                 <div class="success_txt">
-                    <h5 class="hue_black">Your message was sent successfully.</h5>
-                    <p class="hue_black">Thank You!</p>
+                    <h5 class="hue_black">{{__("Your message was sent successfully.")}}</h5>
+                    <p class="hue_black">{{__("Thank You!")}}</p>
                 </div>
             </div>
             <div class="success_btn">
-                <button type="button" class="btn hue_bg_b" data-dismiss="modal">OK</button>
+                <button type="button" class="btn hue_bg_b" data-dismiss="modal">{{__("OK")}}</button>
             </div>
         </div>
     </div>

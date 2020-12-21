@@ -24,26 +24,34 @@ header ul {
 }
 
 header ul li:not(:last-child) {
-    padding-right: 50px;
+    padding-right: 55px;
 }
+
+[lang="am"] header ul li:not(:last-child) {
+    padding-right: 40px;
+}
+
 
 @media (max-width: 1439px) {
     header ul li:not(:last-child) {
-        padding-right: 35px;
+        padding-right: 45px;
     }
-}
 
-@media (max-width: 1199px) {
-    header ul li:not(:last-child) {
+    [lang="am"] header ul li:not(:last-child) {
         padding-right: 30px;
     }
 }
 
 @media (max-width: 1199px) {
     header ul li:not(:last-child) {
+        padding-right: 35px;
+    }
+
+    [lang="am"] header ul li:not(:last-child) {
         padding-right: 20px;
     }
 }
+
 
 @media (max-width: 991px) {
     header .custom_menu>li {
@@ -60,6 +68,10 @@ header ul li a {
 @media (max-width: 1199px) {
     header ul li a {
         font-size: 15px;
+    }
+
+    [lang="am"] header ul li a {
+        font-size: 14px;
     }
 }
 
@@ -78,9 +90,9 @@ header ul .menu-btn {
 }
 
 header ul .menu-btn a {
-    border: 2px solid #143E5A;
+    border: 1px solid #143E5A;
     padding: 18px 37px;
-    border-radius: 5px;
+    border-radius: 7px;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -102,7 +114,10 @@ header ul .menu-btn a:hover {
 @media (max-width: 1199px) {
     header ul .menu-btn a {
         padding: 16px 27px;
+    }
 
+    [lang="am"] header ul .menu-btn a {
+        padding: 15px 15px;
     }
 }
 

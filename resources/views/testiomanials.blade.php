@@ -2,8 +2,8 @@
     <div class="container">
         <div class="testmonail_container">
             <div class="text-center testiomanials_heder_txt_col">
-                <h2 class="hue_blue">Testiomanials</h2>
-                <p class="hue_blue">This is where testimonials will go once awesome clients like you write them!</p>
+                <h2 class="hue_blue">{{__("Testiomanials")}}</h2>
+                <p class="hue_black">{{__("This is where testimonials will go once awesome clients like you write them!")}}</p>
             </div>
             <div class="testimonials-slider mb-4">
                 <div class="testimonials-single text-center">

@@ -2,15 +2,21 @@ window.onload = function () {
     document.courses_register.onsubmit = function () {
         return checkForm();
     }
-
 }
 
+var locale = document.getElementsByTagName("html")[0].getAttribute("lang");
 
 function nameValidate() {
     var name = document.getElementById('name');
     if (name.value == "") {
         name.className = "form-control is-invalid";
-        document.getElementById("nameStatus").innerHTML = "Name field is required";
+        if(locale == "en"){
+            document.getElementById("nameStatus").innerHTML = "Name field is required";
+        }else if(locale == "am"){
+            document.getElementById("nameStatus").innerHTML = "Անվան դաշտը պարտադիր է";
+        }else if(locale == "ru"){
+            document.getElementById("nameStatus").innerHTML = "Поле имени обязательно для заполнения";
+        }
         return false;
     } else {
         name.className = "form-control is-valid";
@@ -22,7 +28,13 @@ function surnameValidate() {
     var surname = document.getElementById('surname');
     if (surname.value == "") {
         surname.className = "form-control is-invalid";
-        document.getElementById("surnameStatus").innerHTML = "Surname field is required";
+        if(locale == "en"){
+            document.getElementById("surnameStatus").innerHTML = "Surname field is required";
+        }else if(locale == "am"){
+            document.getElementById("surnameStatus").innerHTML = "Ազգանունի դաշտը պարտադիր է";
+        }else if(locale == "ru"){
+            document.getElementById("surnameStatus").innerHTML = "Фамилия обязательна";
+        }
         return false;
     } else {
         surname.className = "form-control is-valid";
@@ -30,18 +42,28 @@ function surnameValidate() {
     }
 }
 
-
 function emailValidate() {
 
     var email = document.getElementById('email');
 
     if (email.value == "") {
-        var a = validEmail(email.value);
         email.className = "form-control is-invalid";
-        document.getElementById("emailStatus").innerHTML = "Email is requied";
+        if(locale == "en"){
+            document.getElementById("emailStatus").innerHTML = "Email field is requied";
+        }else if(locale == "am"){
+            document.getElementById("emailStatus").innerHTML = "Էլեկտրոնային փոստը պարտադիր է";
+        }else if(locale == "ru"){
+            document.getElementById("emailStatus").innerHTML = "Электронная почта обязательна";
+        }
         return false;
     } else if (!validEmail(email.value)) {
-        document.getElementById("emailStatus").innerHTML = "Incorrect email adress";
+            if(locale == "en"){
+                document.getElementById("emailStatus").innerHTML = "Incorrect email adress";
+            }else if(locale == "am"){
+                document.getElementById("emailStatus").innerHTML = "Սխալ էլեկտրոնային հասցե";
+            }else if(locale == "ru"){
+                document.getElementById("emailStatus").innerHTML = "Неверный адрес электронной почты";
+            }
         email.className = "form-control is-invalid";
         return false;
     } else {
@@ -56,12 +78,23 @@ function phoneValidate() {
     var phone = document.getElementById('phone');
 
     if (phone.value == "") {
-        var a = validPhone(phone.value);
         phone.className = "form-control is-invalid";
-        document.getElementById("phoneStatus").innerHTML = "Phone is requied";
+        if(locale == "en"){
+            document.getElementById("phoneStatus").innerHTML = "Phone field is requied";
+        }else if(locale == "am"){
+            document.getElementById("phoneStatus").innerHTML = "Հեռախոսահամարը պարտադիր է";
+        }else if(locale == "ru"){
+            document.getElementById("phoneStatus").innerHTML = "Требуется телефон";
+        }
         return false;
     } else if (!validPhone(phone.value)) {
-        document.getElementById("phoneStatus").innerHTML = "Incorrect phone number";
+        if(locale == "en"){
+            document.getElementById("phoneStatus").innerHTML = "Incorrect phone number";
+        }else if(locale == "am"){
+            document.getElementById("phoneStatus").innerHTML = "Սխալ հեռախոսահամար";
+        }else if(locale == "ru"){
+            document.getElementById("phoneStatus").innerHTML = "Неверный номер телефона";
+        }
         phone.className = "form-control is-invalid";
         return false;
     } else {
@@ -75,7 +108,13 @@ function cityValidate() {
     var city = document.getElementById('city');
     if (city.value == "") {
         city.className = "form-control is-invalid";
-        document.getElementById("cityStatus").innerHTML = "City field is required";
+            if(locale == "en"){
+                document.getElementById("cityStatus").innerHTML = "City field is required";
+            }else if(locale == "am"){
+                document.getElementById("cityStatus").innerHTML = "Քաղաքը պարտադիր է";
+            }else if(locale == "ru"){
+                document.getElementById("cityStatus").innerHTML = "Поле города обязательно для заполнения";
+            }
         return false;
     } else {
         city.className = "form-control is-valid";
@@ -87,34 +126,16 @@ function educationValidate() {
     var education = document.getElementById('education');
     if (education.value == "") {
         education.className = "form-control is-invalid";
-        document.getElementById("educationStatus").innerHTML = "Education field is required";
+            if(locale == "en"){
+                document.getElementById("educationStatus").innerHTML = "Education field is required";
+            }else if(locale == "am"){
+                document.getElementById("educationStatus").innerHTML = "Կրթության ոլորտը պարտադիր է";
+            }else if(locale == "ru"){
+                document.getElementById("educationStatus").innerHTML = "Обязательное поле образования";
+            }
         return false;
     } else {
         education.className = "form-control is-valid";
-        return true;
-    }
-}
-
-function companyValidate() {
-    var company = document.getElementById('company');
-    if (company.value == "") {
-        company.className = "form-control is-invalid";
-        document.getElementById("companyStatus").innerHTML = "Company field is required";
-        return false;
-    } else {
-        company.className = "form-control is-valid";
-        return true;
-    }
-}
-
-function courseValidate() {
-    var course = document.getElementById('course');
-    if (course.value == "") {
-        course.className = "form-control is-invalid";
-        document.getElementById("courseStatus").innerHTML = "Course field is required";
-        return false;
-    } else {
-        course.className = "form-control is-valid";
         return true;
     }
 }
@@ -124,7 +145,13 @@ function messageValidate() {
     var message = document.getElementById('message');
     if (message.value == "") {
         message.className = "form-control is-invalid";
-        document.getElementById("messageStatus").innerHTML = "Message field is required";
+        if(locale == "en"){
+            document.getElementById("messageStatus").innerHTML = "Message field is required";
+        }else if(locale == "am"){
+            document.getElementById("messageStatus").innerHTML = "Հաղորդագրության դաշտը պարտադիր է";
+        }else if(locale == "ru"){
+            document.getElementById("messageStatus").innerHTML = "Поле сообщения обязательно";
+        }
         return false;
     } else {
         message.className = "form-control is-valid";
@@ -153,10 +180,8 @@ function checkForm() {
     if (!emailValidate()) valid = false;
     if (!phoneValidate()) valid = false;
     if (!cityValidate()) valid = false;
-    if (!companyValidate()) valid = false;
     if (!educationValidate()) valid = false;
-    if (!cvValidate()) valid = false;
-    if (!courseValidate()) valid = false;
+    if (!messageValidate()) valid = false;
 
     return valid;
 }

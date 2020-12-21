@@ -20,11 +20,20 @@ $(document).ready(function () {
         $("#apply").slideDown(800);
     });
 
-
+    var locale = document.getElementsByTagName("html")[0].getAttribute("lang");
 
     var applyFiles = function () {
         if (this.files.length <= 0) {
-            $('.choosen').html('No File Selected');
+            if(locale == "en"){
+                $('.choosen').html('No File Selected');
+            }
+            if(locale == "am"){
+                $('.choosen').html('Ընտրված չէ');
+            }
+            if(locale == "ru"){
+                $('.choosen').html('Файл не выбран');
+            }
+            
         } else {
             $('.choosen').empty();
 

@@ -14,11 +14,6 @@
     }
 }
 
-@media (max-width: 767px) {
-    #partners {
-        padding-bottom: 60px;
-    }
-}
 
 .partners_heder_txt_col>h2 {
     font-weight: 600;
@@ -40,7 +35,7 @@
 
 .partners_heder_txt_col>p {
     font-size: 18px;
-    width: 590px;
+    max-width: 730px;
     margin: 45px auto;
 }
 
@@ -74,7 +69,7 @@
     .custo_col,
     .luseen_col,
     .severalnines_col {
-        margin-bottom: 20px;
+        margin-bottom: 35px;
     }
 }
 

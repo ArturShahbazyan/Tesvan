@@ -45,7 +45,7 @@
     font-size: 18px;
     line-height: 160%;
     margin-top: 35px;
-    width: 670px;
+    max-width: 670px;
     display: inline-block;
 }
 
@@ -114,12 +114,7 @@
 
 .QA_col {
     font-size: 25px;
-    padding-left: 156px;
-}
-
-.QA_col {
-    font-size: 25px;
-    padding-left: 156px;
+    padding-left: 135px;
 }
 
 @media (max-width: 1199px) {

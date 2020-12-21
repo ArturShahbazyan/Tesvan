@@ -5,13 +5,21 @@ window.onload = function () {
 
 }
 
+var locale = document.getElementsByTagName("html")[0].getAttribute("lang");
+
 function nameValidate() {
+
     var name = document.getElementById('name');
     if (name.value == "") {
         name.className = "form-control is-invalid";
-        document
-            .getElementById("nameStatus")
-            .innerHTML = "Name field is required";
+        if(locale == "en"){
+            document.getElementById("nameStatus").innerHTML = "Name field is required";
+        }else if(locale == "am"){
+            document.getElementById("nameStatus").innerHTML = "Անվան դաշտը պարտադիր է";
+        }else if(locale == "ru"){
+            document.getElementById("nameStatus").innerHTML = "Поле имени обязательно для заполнения";
+        }
+    
         return false;
     } else {
         name.className = "form-control is-valid";
@@ -19,21 +27,29 @@ function nameValidate() {
     }
 }
 
+
 function emailValidate() {
 
     var email = document.getElementById('email');
 
     if (email.value == "") {
-        var a = validEmail(email.value);
         email.className = "form-control is-invalid";
-        document
-            .getElementById("emailStatus")
-            .innerHTML = "Email is requied";
+        if(locale == "en"){
+            document.getElementById("emailStatus").innerHTML = "Email field is requied";
+        }else if(locale == "am"){
+            document.getElementById("emailStatus").innerHTML = "Էլեկտրոնային փոստը պարտադիր է";
+        }else if(locale == "ru"){
+            document.getElementById("emailStatus").innerHTML = "Электронная почта обязательна";
+        }
         return false;
     } else if (!validEmail(email.value)) {
-        document
-            .getElementById("emailStatus")
-            .innerHTML = "Incorrect email adress";
+            if(locale == "en"){
+                document.getElementById("emailStatus").innerHTML = "Incorrect email adress";
+            }else if(locale == "am"){
+                document.getElementById("emailStatus").innerHTML = "Սխալ էլեկտրոնային հասցե";
+            }else if(locale == "ru"){
+                document.getElementById("emailStatus").innerHTML = "Неверный адрес электронной почты";
+            }
         email.className = "form-control is-invalid";
         return false;
     } else {
@@ -47,16 +63,23 @@ function phoneValidate() {
     var phone = document.getElementById('phone');
 
     if (phone.value == "") {
-        var a = validPhone(phone.value);
         phone.className = "form-control is-invalid";
-        document
-            .getElementById("phoneStatus")
-            .innerHTML = "Phone is requied";
+        if(locale == "en"){
+            document.getElementById("phoneStatus").innerHTML = "Phone field is requied";
+        }else if(locale == "am"){
+            document.getElementById("phoneStatus").innerHTML = "Հեռախոսահամարը պարտադիր է";
+        }else if(locale == "ru"){
+            document.getElementById("phoneStatus").innerHTML = "Требуется телефон";
+        }
         return false;
     } else if (!validPhone(phone.value)) {
-        document
-            .getElementById("phoneStatus")
-            .innerHTML = "Incorrect phone number";
+        if(locale == "en"){
+            document.getElementById("phoneStatus").innerHTML = "Incorrect phone number";
+        }else if(locale == "am"){
+            document.getElementById("phoneStatus").innerHTML = "Սխալ հեռախոսահամար";
+        }else if(locale == "ru"){
+            document.getElementById("phoneStatus").innerHTML = "Неверный номер телефона";
+        }
         phone.className = "form-control is-invalid";
         return false;
     } else {
@@ -69,9 +92,14 @@ function messageValidate() {
     var message = document.getElementById('message');
     if (message.value == "") {
         message.className = "form-control is-invalid";
-        document
-            .getElementById("messageStatus")
-            .innerHTML = "Message field is required";
+        if(locale == "en"){
+            document.getElementById("messageStatus").innerHTML = "Message field is required";
+        }else if(locale == "am"){
+            document.getElementById("messageStatus").innerHTML = "Հաղորդագրության դաշտը պարտադիր է";
+        }else if(locale == "ru"){
+            document.getElementById("messageStatus").innerHTML = "Поле сообщения обязательно";
+        }
+
         return false;
     } else {
         message.className = "form-control is-valid";

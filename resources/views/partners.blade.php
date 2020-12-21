@@ -1,9 +1,9 @@
 <section id="partners">
     <div class="container">
         <div class="text-center partners_heder_txt_col">
-            <h2 class="hue_blue">Partners and Clients</h2>
-            <p class="hue_blue">We are not only providing our service to global companies
-                but also work for them within cross-team development on remote
+            <h2 class="hue_blue">{{__("Partners and Clients")}}</h2>
+            <p class="hue_black">
+                {{__("We are not only providing our service to global companies but also work for them within cross-team development on remote")}}
             </p>
         </div>
         <div class="logos_row">

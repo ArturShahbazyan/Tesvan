@@ -22,18 +22,9 @@
     }
 }
 
-@media (max-width: 767px) {
-    #team {
-        padding-bottom: 60px;
-    }
-}
-
-
-
 .team_heder_txt_col>h2 {
     font-weight: 600;
     font-size: 40px;
-
 }
 
 @media (max-width: 767px) {
@@ -55,7 +46,7 @@
 
 .team_heder_txt_col>p {
     font-size: 18px;
-    width: 590px;
+    max-width: 590px;
     margin: 45px auto;
 }
 
@@ -151,15 +142,25 @@
 
 
 @media (max-width: 1439px) {
-
     .team_member_row>h4 {
         font-size: 17px;
     }
 }
 
+@media (max-width: 767px) {
+    .team_member_row>h4 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+}
 
 @media (max-width: 575px) {
+    .team_member_row>h4 {
+        font-size: 14px;
+    }
+}
 
+@media (max-width: 479px) {
     .team_member_row>h4 {
         font-size: 15px;
     }

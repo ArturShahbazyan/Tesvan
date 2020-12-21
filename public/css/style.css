@@ -155,7 +155,7 @@
 }
 
 .success_txt>h5 {
-    font-size: 25px;
+    font-size: 24px;
 }
 
 @media (max-width: 991px) {
@@ -216,7 +216,7 @@ body {
 }
 
 .hue_yellow {
-    color: #F4B41A !important;
+    color: #F4B41A;
 }
 
 .hue_bg_grey {

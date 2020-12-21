@@ -18,17 +18,21 @@ footer .footer-logo {
 footer .footer-logo span {
     margin-left: 20px;
     font-size: 20px;
-    font-family: "OpenSans-Bold";
+    font-weight: bold;
 }
 
 footer p {
     font-size: 16px;
-    font-family: "OpenSans-Bold";
 }
 
 footer a {
-    font-family: "OpenSans-Regular";
     font-size: 16px;
+}
+
+@media (max-width: 1199px) {
+    [lang="am"] footer a {
+        font-size: 14px;
+    }
 }
 
 footer a:hover {
@@ -39,7 +43,7 @@ footer a:hover {
 
 footer .social-network span {
     font-size: 16px;
-    font-family: "OpenSans-Bold";
+    font-weight: bold;
 }
 
 footer .social-network .single-icon {
@@ -61,8 +65,8 @@ footer .social-network .single-icon a .icon-bg {
     padding-top: 10px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
-	transition: 0.3s;
-	margin-right: 10px;
+    transition: 0.3s;
+    margin-right: 10px;
 }
 
 
@@ -78,35 +82,39 @@ footer .copyright p {
 
 /* >>>>>>>>>>>>>>>> footer new styles >>>>>>>>>>>>>> */
 
+.tesvan_LLC_txt {
+    font-weight: bold;
+}
 
 .social-network {
-   padding-top:100px;
+    padding-top: 100px;
 }
 
 @media (max-width: 991px) {
     .footer_row {
-		padding-bottom:40px;
-		padding-top:0px;
+        padding-bottom: 40px;
+        padding-top: 0px;
     }
 }
 
-.single-link a:hover, .footer_row a:hover{
-    color:#0D171D;
+.single-link a:hover,
+.footer_row a:hover {
+    color: #0D171D;
 }
 
 
 .tesvan_info:hover {
-    color:#0D171D;
-    text-decoration:underline;
+    color: #0D171D;
+    text-decoration: underline;
 }
 
 .tesvan_info {
-    color:#0D171D;
-    text-decoration:underline;
+    color: #0D171D;
+    text-decoration: underline;
 }
 
 ._flag:hover {
-   text-decoration: none;
+    text-decoration: none;
 }
 
 ._flag_row {
@@ -114,5 +122,5 @@ footer .copyright p {
 }
 
 .icon-bg:hover {
-    opacity: 0.6;                    
+    opacity: 0.6;
 }

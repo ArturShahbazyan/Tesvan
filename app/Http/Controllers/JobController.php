@@ -30,7 +30,6 @@ class JobController extends Controller
             $message->from("davidg.tesvan@gmail.com");
             $message->to('jobs@tesvan.com', 'Admin')->subject("Tesvan");
             
-           
              $message->attach($request->file('cv')->getRealPath(), [
                'as' => $request->file('cv')->getClientOriginalName(), 
                'mime' => $request->file('cv')->getMimeType()

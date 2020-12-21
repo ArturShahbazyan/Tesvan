@@ -28,7 +28,7 @@
                 </span>
             </a>
             <div class="dropdown-menu dropdown-menu-right flags_dropdown_menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item hue_blue" href="lang/es">
+                <a class="dropdown-item hue_blue" href="lang/en">
                     <img src="{{asset('images/us.png')}}" width="33px" height="23px">
                     {{ __("English")}}</a>
                 <a class="dropdown-item hue_blue" href="lang/am">
@@ -43,7 +43,7 @@
             <div class="menu-menu-container">
                 <ul id="menu-menu" class="navigation navbar-nav ml-auto flex-nowrap custom_menu">
                     <li id="menu-item-1" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1">
-                        <a href="{{ url('/#QA') }}" class="hue_blue">{{ __("About Us")}}</a>
+                        <a href="{{ url('/#banner') }}" class="hue_blue">{{ __("About Us")}}</a>
                     </li>
                     <li id="menu-item-2" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2">
                         <a class="hue_blue" href="{{ url('job') }}">{{ __("Job")}}</a>
@@ -52,16 +52,13 @@
                         <a class="hue_blue" href="{{ url('courses') }}">{{ __("Courses")}} </a>
                     </li>
                     <li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4">
-                        <a href="{{ url('/#banner') }}" class="hue_blue">{{ __("Quality")}}</a>
+                        <a href="{{ url('/#QA') }}" class="hue_blue">{{ __("Quality")}}</a>
                     </li>
                     <li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5">
                         <a href="{{ url('/#co_workers') }}" class="hue_blue">{{ __("Co-Workers")}}</a>
                     </li>
-                    <li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6">
-                        <a href="{{ url('/#testimonials') }}" class="hue_blue">{{ __("Customers")}}</a>
-                    </li>
                     <li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7">
-                        <a href="{{ url('/#team') }}" class="hue_blue">{{ __("Team")}}</a>
+                        <a href="{{ url('/#team') }}" class="hue_blue">{{ __("Team ")}}</a>
                     </li>
                     <li class="menu-btn menu-item menu-item-type-custom menu-item-object-custom
                menu-item-8" id="menu-item-8">
@@ -84,7 +81,7 @@
                                     </span>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right flags_dropdown_menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item hue_blue" href="lang/es">
+                                    <a class="dropdown-item hue_blue" href="lang/en">
                                         <img src="{{asset('images/us.png')}}" width="33px" height="23px">
                                         {{ __("English")}}</a>
                                     <a class="dropdown-item hue_blue" href="lang/am">

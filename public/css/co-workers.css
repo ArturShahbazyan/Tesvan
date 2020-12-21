@@ -3,21 +3,21 @@
 }
 
 @media (max-width: 1199px) {
-	#co_workers {
-		padding-bottom: 100px;
-	}
+    #co_workers {
+        padding-bottom: 100px;
+    }
 }
 
 @media (max-width: 991px) {
-	#co_workers {
-		padding-bottom: 90px;
-	}
+    #co_workers {
+        padding-bottom: 90px;
+    }
 }
 
 @media (max-width: 767px) {
-	#co_workers {
-		padding-bottom: 70px;
-	}
+    #co_workers {
+        padding-bottom: 60px;
+    }
 }
 
 
@@ -45,54 +45,56 @@
     }
 }
 
-
 @media (max-width: 1199px) {
     .flag_row {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 }
 
+@media (max-width: 767px) {
+    .flag_row {
+        margin-bottom: 10px;
+    }
+}
 
-
-.co_workers_text_col > h2 {
+.co_workers_text_col>h2 {
     font-weight: 600;
     font-size: 40px;
-
 }
 
 @media (max-width: 767px) {
-    .co_workers_text_col > h2 {
+    .co_workers_text_col>h2 {
         font-size: 35px;
 
     }
 }
 
 @media (max-width: 479px) {
-    .co_workers_text_col > h2 {
+    .co_workers_text_col>h2 {
         font-size: 25px;
     }
 }
 
-.co_workers_text_col > p {
+.co_workers_text_col>p {
     font-size: 18px;
     margin-top: 35px;
-    width: 600px;
+    max-width: 750px;
     display: inline-block;
 }
 
 @media (max-width: 767px) {
-    .co_workers_text_col > p {
+    .co_workers_text_col>p {
         font-size: 17px;
         margin-top: 30px;
         width: 100%;
     }
 }
 
-@media (max-width: 479px){
-.co_workers_text_col > p {
-    font-size: 15px;
-    margin-top: 20px;
-}
+@media (max-width: 479px) {
+    .co_workers_text_col>p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
 }
 
 .flag_col {
@@ -120,34 +122,31 @@
 
 .flag_txt {
     font-size: 18px;
-    margin-top:20px;
-    display:block;
+    margin-top: 20px;
+    display: block;
 }
 
 @media (max-width: 1439px) {
     .flag_txt {
-        margin-top:10px;
+        margin-top: 10px;
     }
 }
 
 @media (max-width: 1199px) {
     .flag_txt {
-        margin-top:0px;
+        margin-top: 0px;
     }
 }
 
 @media (max-width: 767px) {
     .flag_txt {
-        margin-top:-5px;
+        margin-top: -5px;
     }
 }
 
 
 @media (max-width: 479px) {
     .flag_txt {
-        margin-top:-15px;
+        margin-top: -15px;
     }
 }
-
-
-
